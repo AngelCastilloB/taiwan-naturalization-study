@@ -85,27 +85,52 @@ function streak() {
   return n;
 }
 
-/* ---------- speech ---------- */
-let zhVoice = null, enVoice = null;
+/* ---------- speech ----------
+   Mobile browsers are picky about the Web Speech API:
+   - voices load late (iOS often never fires voiceschanged), so re-check before each utterance
+   - iOS only allows speech that starts from a tap until it has been "unlocked" by one
+   - cancel() immediately followed by speak() can drop the new utterance, so only cancel when busy
+   - Chrome can leave the queue paused, and garbage-collects utterances before onend fires */
+let zhVoice = null, enVoice = null, voiceCount = 0, lastSpeechError = '', speechUnlocked = false, currentUtterance = null;
 function pickVoices() {
   const vs = window.speechSynthesis ? speechSynthesis.getVoices() : [];
+  voiceCount = vs.length;
   zhVoice = vs.find(v => /zh[-_]TW/i.test(v.lang)) || vs.find(v => /zh[-_](Hant|HK)/i.test(v.lang)) || vs.find(v => /^(zh|cmn)/i.test(v.lang)) || null;
   enVoice = vs.find(v => /^en[-_]US/i.test(v.lang)) || vs.find(v => /^en/i.test(v.lang)) || null;
 }
-if (window.speechSynthesis) { pickVoices(); speechSynthesis.addEventListener?.('voiceschanged', pickVoices); }
+if (window.speechSynthesis) {
+  pickVoices();
+  speechSynthesis.addEventListener?.('voiceschanged', pickVoices);
+  let polls = 0; const poll = setInterval(() => { pickVoices(); if (zhVoice || ++polls > 20) clearInterval(poll); }, 500);
+  const unlock = () => {
+    if (speechUnlocked) return;
+    speechUnlocked = true;
+    try { const u = new SpeechSynthesisUtterance(' '); u.volume = 0; speechSynthesis.speak(u); } catch (e) {}
+  };
+  document.addEventListener('pointerdown', unlock, {once: true, capture: true});
+  document.addEventListener('keydown', unlock, {once: true, capture: true});
+}
 const spoken = t => t.replace(/（答對\s*1\s*個即可）/g, '，答對一個即可').replace(/[（(]\d[)）]/g, '');
 function speak(text, {lang = 'zh', onend} = {}) {
   if (!window.speechSynthesis) { onend && setTimeout(onend, 1200); return; }
-  speechSynthesis.cancel();
+  const synth = speechSynthesis;
+  if (!zhVoice || !voiceCount) pickVoices();
+  if (synth.speaking || synth.pending) synth.cancel();
+  if (synth.paused) synth.resume();
   const u = new SpeechSynthesisUtterance(lang === 'zh' ? spoken(text) : text);
   const v = lang === 'zh' ? zhVoice : enVoice;
   u.lang = v ? v.lang : (lang === 'zh' ? 'zh-TW' : 'en-US');
   if (v) u.voice = v;
   u.rate = lang === 'zh' ? S.settings.rate : 1;
-  if (onend) { let done = false; const fin = () => { if (!done) { done = true; onend(); } }; u.onend = fin; u.onerror = fin; }
-  speechSynthesis.speak(u);
+  let done = false;
+  const fin = () => { if (!done) { done = true; if (currentUtterance === u) currentUtterance = null; onend && onend(); } };
+  u.onend = fin;
+  u.onerror = e => { if (e && e.error && e.error !== 'interrupted' && e.error !== 'canceled') lastSpeechError = e.error; fin(); };
+  u.onstart = () => { lastSpeechError = ''; };
+  currentUtterance = u; // keep a reference so the browser doesn't drop it mid-sentence
+  synth.speak(u);
 }
-const stopSpeech = () => window.speechSynthesis && speechSynthesis.cancel();
+const stopSpeech = () => { if (window.speechSynthesis && (speechSynthesis.speaking || speechSynthesis.pending)) speechSynthesis.cancel(); };
 const speakItem = it => speak(it.kind === 'q' ? it.q : it.zh);
 const speakAnswer = it => speak(it.kind === 'q' ? it.key : it.zh);
 
@@ -228,7 +253,7 @@ function levelTile(l) {
 }
 function voiceNote() {
   if (window.speechSynthesis && zhVoice) return '';
-  return `<div class="note" style="margin-top:16px">No Chinese voice was found on this device, so audio may not play. iPhone, iPad and Mac include one. On Windows, add <b>Chinese (Traditional, Taiwan)</b> in Settings → Time &amp; language → Speech. On Android, install Chinese (Taiwan) in Google text-to-speech settings.</div>`;
+  return `<div class="note" style="margin-top:16px">No Chinese voice found on this device yet, so audio may not play. Settings → Test voice shows what your phone reports. iPhone, iPad and Mac include one. On Windows, add <b>Chinese (Traditional, Taiwan)</b> in Settings → Time &amp; language → Speech. On Android, install Chinese (Taiwan) in Google text-to-speech settings.</div>`;
 }
 
 /* ---------- level page ---------- */
@@ -747,7 +772,8 @@ function renderSettings() {
       <label class="check"><input type="checkbox" id="sPy" ${s.pinyin ? 'checked' : ''}> Show pinyin above characters</label>
       <label class="check"><input type="checkbox" id="sEn" ${s.english ? 'checked' : ''}> Show English translations</label>
       <label class="check"><input type="checkbox" id="sAuto" ${s.autoplay ? 'checked' : ''}> Play audio automatically</label>
-      <p class="hint" style="margin:0">Voice: ${zhVoice ? esc(zhVoice.name + ' (' + zhVoice.lang + ')') : 'no Chinese voice found'} <button class="link" id="sTest">Test voice</button></p>
+      <div class="note" id="sVoice"></div>
+      <div class="row" style="margin-top:10px"><button class="btn water" id="sTest">${ICON.spk} Test voice</button></div>
     </section>
     <section class="panel">
       <h2>Move your progress</h2>
@@ -771,7 +797,20 @@ function renderSettings() {
   $('#sPy').onchange = e => { s.pinyin = e.target.checked; applySettings(); save(); };
   $('#sEn').onchange = e => { s.english = e.target.checked; applySettings(); save(); };
   $('#sAuto').onchange = e => { s.autoplay = e.target.checked; save(); };
-  $('#sTest').onclick = () => speak('中華民國總統每幾年選一次？');
+  const showVoice = () => {
+    pickVoices();
+    const lines = [];
+    if (!window.speechSynthesis) lines.push('This browser has no speech support. Open the app in Safari (iPhone) or Chrome (Android).');
+    else {
+      lines.push(`Chinese voice: <b>${zhVoice ? esc(zhVoice.name + ' · ' + zhVoice.lang) : 'not found'}</b> · ${voiceCount} voices on this device`);
+      if (lastSpeechError) lines.push(`Last error: <b>${esc(lastSpeechError)}</b>`);
+      if (!zhVoice) lines.push('Android: open Settings → search “Text-to-speech” → Preferred engine: Speech Services by Google → ⚙ → Install voice data → Chinese (Taiwan). Then restart the app.');
+      lines.push('iPhone: speech is silent when the side switch is on silent mode. Flip it off and turn the volume up.');
+    }
+    $('#sVoice').innerHTML = lines.join('<br>');
+  };
+  showVoice();
+  $('#sTest').onclick = () => { speak('中華民國總統每幾年選一次？'); setTimeout(showVoice, 1500); };
   const code = () => btoa(unescape(encodeURIComponent(JSON.stringify(S))));
   $('#sCopy').onclick = async () => {
     try { await navigator.clipboard.writeText(code()); toast('Progress code copied. Paste it on your other device.'); }

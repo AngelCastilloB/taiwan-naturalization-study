@@ -1,5 +1,5 @@
-// Offline support: serve the app shell from cache, refresh it in the background.
-const VERSION = 'v1';
+// Offline support: load from the network when possible, fall back to the cached app shell.
+const VERSION = 'v2';
 const SHELL = ['./', 'index.html', 'app.css', 'app.js', 'data.js', 'manifest.webmanifest',
   'icons/icon.svg', 'icons/icon-192.png', 'icons/icon-512.png', 'icons/apple-touch-icon.png'];
 
@@ -18,11 +18,15 @@ self.addEventListener('fetch', e => {
   if (req.method !== 'GET') return;
   const url = new URL(req.url);
   if (url.origin === location.origin) {
-    // stale-while-revalidate for the app itself
+    // network first so updates arrive right away; cache when offline
     e.respondWith(caches.open('shell-' + VERSION).then(async cache => {
-      const hit = await cache.match(req, {ignoreSearch: true});
-      const net = fetch(req).then(res => { if (res.ok) cache.put(req, res.clone()); return res; }).catch(() => hit);
-      return hit || net;
+      try {
+        const res = await fetch(req);
+        if (res.ok) cache.put(req, res.clone());
+        return res;
+      } catch (err) {
+        return (await cache.match(req, {ignoreSearch: true})) || (await cache.match('index.html'));
+      }
     }));
   } else if (/fonts\.(googleapis|gstatic)\.com$/.test(url.hostname)) {
     e.respondWith(caches.open('fonts').then(async cache => {
