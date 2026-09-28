@@ -1,0 +1,466 @@
+[
+ {
+  "id": 181,
+  "q_en": "Liquids, gels (such as lotion), and spray items of 100 ml or more, plus golf clubs, billiard/pool cues, fishing rods, folding knives, and kitchen knives may not be carried onto the plane as carry-on items?",
+  "a_en": "Yes.",
+  "key": "是",
+  "key_en": "Yes.",
+  "tip": "Same 100ml liquid rule as most international airports."
+ },
+ {
+  "id": 182,
+  "q_en": "Can a child under 4 years old ride in a car without using a child safety seat?",
+  "a_en": "No.",
+  "key": "不可以",
+  "key_en": "No.",
+  "tip": ""
+ },
+ {
+  "id": 183,
+  "q_en": "When driving on a freeway or expressway, is it allowed to make a U-turn or reverse directly?",
+  "a_en": "No.",
+  "key": "不可以",
+  "key_en": "No.",
+  "tip": ""
+ },
+ {
+  "id": 184,
+  "q_en": "After drinking alcohol, is it okay to drive home slowly?",
+  "a_en": "No.",
+  "key": "不可以",
+  "key_en": "No.",
+  "tip": ""
+ },
+ {
+  "id": 185,
+  "q_en": "What is the maximum number of people who can ride on the back seat of a motorcycle?",
+  "a_en": "1 person.",
+  "key": "1人",
+  "key_en": "1 person.",
+  "tip": ""
+ },
+ {
+  "id": 186,
+  "q_en": "Can a regular (non-heavy) motorcycle travel on or enter a freeway or expressway?",
+  "a_en": "No.",
+  "key": "不可以",
+  "key_en": "No.",
+  "tip": ""
+ },
+ {
+  "id": 187,
+  "q_en": "Once a motorcycle is 5 years old (from the date of manufacture), how many times a year must it undergo periodic emissions inspection?",
+  "a_en": "1 time (once a year).",
+  "key": "1次",
+  "key_en": "Once.",
+  "tip": ""
+ },
+ {
+  "id": 188,
+  "q_en": "A newly manufactured motorcycle is exempt from periodic emissions inspection for how many years?",
+  "a_en": "5 years.",
+  "key": "5年",
+  "key_en": "5 years.",
+  "tip": ""
+ },
+ {
+  "id": 189,
+  "q_en": "Household waste should first be sorted into which categories before it can be collected by the sanitation team?",
+  "a_en": "Recyclables, kitchen/food waste, and general trash.",
+  "key": "資源類、廚餘類、垃圾類",
+  "key_en": "Recyclables, food waste, general trash.",
+  "tip": "Taiwan's classic 3-bin sorting system."
+ },
+ {
+  "id": 190,
+  "q_en": "Clearing away containers of standing water outdoors helps prevent transmission of which disease?",
+  "a_en": "Dengue fever.",
+  "key": "登革熱",
+  "key_en": "Dengue fever.",
+  "tip": "Standing water breeds the mosquitoes that spread it."
+ },
+ {
+  "id": 191,
+  "q_en": "If you discover someone or a factory discharging wastewater or making noise pollution, which agency can you file a complaint or report to?",
+  "a_en": "The Environmental Protection Bureau.",
+  "key": "環境保護局",
+  "key_en": "Environmental Protection Bureau.",
+  "tip": ""
+ },
+ {
+  "id": 192,
+  "q_en": "Among the 'Ten No-Regrets Measures' for energy saving and carbon reduction, regarding keeping cool air from leaking out, at what temperature should the air conditioner be set?",
+  "a_en": "26°C to 28°C.",
+  "key": "26℃～28℃",
+  "key_en": "26°C-28°C.",
+  "tip": ""
+ },
+ {
+  "id": 193,
+  "q_en": "During a typhoon, is it allowed to enter mountain areas, beaches, and other dangerous restricted/warning zones?",
+  "a_en": "No.",
+  "key": "不可以",
+  "key_en": "No.",
+  "tip": ""
+ },
+ {
+  "id": 194,
+  "q_en": "If you find a gas cylinder without a valid certification label or with an expired inspection, which phone number should you call to report it to the fire department?",
+  "a_en": "119.",
+  "key": "119",
+  "key_en": "119.",
+  "tip": "119 = fire/ambulance; 110 = police."
+ },
+ {
+  "id": 195,
+  "q_en": "If a fire breaks out while you are in a room, before escaping or being rescued, is it okay to use the space close to the floor to breathe the remaining air, to help you escape?",
+  "a_en": "Yes.",
+  "key": "可以",
+  "key_en": "Yes.",
+  "tip": "Smoke rises, so cleaner air stays near the floor."
+ },
+ {
+  "id": 196,
+  "q_en": "If you notice something affecting public safety, or face an emergency needing police help, which phone number should you call to report it to the police?",
+  "a_en": "110.",
+  "key": "110",
+  "key_en": "110.",
+  "tip": "110 = police; 119 = fire/ambulance."
+ },
+ {
+  "id": 197,
+  "q_en": "If you encounter a disaster or accident, a person collapsed on the road unable to move, a woman in labor, or another situation urgently needing rescue, which phone number can you call for help?",
+  "a_en": "119.",
+  "key": "119",
+  "key_en": "119.",
+  "tip": ""
+ },
+ {
+  "id": 198,
+  "q_en": "What are common natural disasters in Taiwan? (One correct answer is enough)",
+  "a_en": "Typhoons (heavy rain, floods), earthquakes, droughts, landslides (mudslides, rockfalls).",
+  "key": "颱風",
+  "key_en": "Typhoon.",
+  "tip": ""
+ },
+ {
+  "id": 199,
+  "q_en": "If you face an emergency disaster (such as an earthquake, typhoon, mountain accident, or sea accident) and need rescue, but your mobile phone has no signal when you try to call for help, which of the following numbers can you try instead?",
+  "a_en": "112.",
+  "key": "112",
+  "key_en": "112.",
+  "tip": "112 works even with no SIM/signal, from any carrier."
+ },
+ {
+  "id": 200,
+  "q_en": "When an earthquake strikes, what is the best protective action to take if you are indoors? (One correct answer is enough)",
+  "a_en": "Drop, cover, and hold on.",
+  "key": "趴下",
+  "key_en": "Drop (down).",
+  "tip": "Same 'Drop, Cover, Hold On' drill taught internationally."
+ },
+ {
+  "id": 201,
+  "q_en": "What is the most important basic law that directly protects consumer rights?",
+  "a_en": "The Consumer Protection Act.",
+  "key": "消費者保護法",
+  "key_en": "Consumer Protection Act.",
+  "tip": ""
+ },
+ {
+  "id": 202,
+  "q_en": "For goods or services bought through distance selling (e.g., TV or internet shopping) or door-to-door sales (e.g., street vendors), except for reasonable exceptions, within how many days after receiving the goods or service can you return the goods or cancel the contract in writing, without giving a reason or paying any fee?",
+  "a_en": "Within 7 days.",
+  "key": "7天內",
+  "key_en": "Within 7 days.",
+  "tip": "Cooling-off period for online/door-to-door purchases."
+ },
+ {
+  "id": 203,
+  "q_en": "When you have a consumer dispute with a business because a product (or service) is defective, where can you file a complaint? (One correct answer is enough)",
+  "a_en": "(1) The business operator. (2) Consumer protection groups. (3) The municipal/county (city) government Consumer Service Center or its branch centers.",
+  "key": "企業經營者",
+  "key_en": "The business operator.",
+  "tip": ""
+ },
+ {
+  "id": 204,
+  "q_en": "What is the consumer protection hotline number?",
+  "a_en": "1950.",
+  "key": "1950",
+  "key_en": "1950.",
+  "tip": ""
+ },
+ {
+  "id": 205,
+  "q_en": "What is Taiwan's longest mountain range?",
+  "a_en": "The Central Mountain Range.",
+  "key": "中央山脈",
+  "key_en": "Central Mountain Range.",
+  "tip": ""
+ },
+ {
+  "id": 206,
+  "q_en": "What is Taiwan's highest mountain peak?",
+  "a_en": "Yushan (Jade Mountain).",
+  "key": "玉山",
+  "key_en": "Yushan (Jade Mountain).",
+  "tip": ""
+ },
+ {
+  "id": 207,
+  "q_en": "Which continent is Taiwan located in?",
+  "a_en": "Asia.",
+  "key": "亞洲",
+  "key_en": "Asia.",
+  "tip": ""
+ },
+ {
+  "id": 208,
+  "q_en": "Who were the earliest people to live on the land of Taiwan?",
+  "a_en": "Indigenous peoples.",
+  "key": "原住民",
+  "key_en": "Indigenous peoples.",
+  "tip": ""
+ },
+ {
+  "id": 209,
+  "q_en": "What scenic area or historic site in Taiwan have you visited? Which one do you like best?",
+  "a_en": "(Answer freely, in your own words.)",
+  "key": "我去過日月潭和阿里山，最喜歡日月潭",
+  "key_en": "I've been to Sun Moon Lake and Alishan. I like Sun Moon Lake best.",
+  "tip": "Personal question: there is no fixed answer. Swap in your own details, keep it to one or two simple sentences, and practice saying it smoothly.",
+  "own": true
+ },
+ {
+  "id": 210,
+  "q_en": "What is the national government agency in charge of Indigenous peoples' affairs?",
+  "a_en": "The Council of Indigenous Peoples.",
+  "key": "原住民族委員會",
+  "key_en": "Council of Indigenous Peoples.",
+  "tip": ""
+ },
+ {
+  "id": 211,
+  "q_en": "If you want to learn more about the history, culture, and current situation of Taiwan's Indigenous peoples, which TV station on channel 16 can you watch?",
+  "a_en": "Taiwan Indigenous Television.",
+  "key": "原住民族電視台",
+  "key_en": "Taiwan Indigenous Television.",
+  "tip": ""
+ },
+ {
+  "id": 212,
+  "q_en": "Eating zongzi (rice dumplings) and rowing dragon boats are customs of which festival?",
+  "a_en": "The Dragon Boat Festival.",
+  "key": "端午節",
+  "key_en": "Dragon Boat Festival.",
+  "tip": ""
+ },
+ {
+  "id": 213,
+  "q_en": "Visiting the family grave to pay respects is a custom of which festival?",
+  "a_en": "Tomb Sweeping Day (Qingming Festival).",
+  "key": "清明節",
+  "key_en": "Tomb Sweeping Day.",
+  "tip": ""
+ },
+ {
+  "id": 214,
+  "q_en": "Eating mooncakes and pomelos is a custom of which festival?",
+  "a_en": "The Mid-Autumn Festival.",
+  "key": "中秋節",
+  "key_en": "Mid-Autumn Festival.",
+  "tip": ""
+ },
+ {
+  "id": 215,
+  "q_en": "Putting up spring couplets, eating the reunion dinner, and giving lucky money are customs of which festival?",
+  "a_en": "Lunar New Year.",
+  "key": "農曆春節",
+  "key_en": "Lunar New Year.",
+  "tip": ""
+ },
+ {
+  "id": 216,
+  "q_en": "Carrying lanterns, guessing lantern riddles, and eating tangyuan (sweet rice balls) are customs of which festival?",
+  "a_en": "The Lantern Festival.",
+  "key": "元宵節",
+  "key_en": "Lantern Festival.",
+  "tip": ""
+ },
+ {
+  "id": 217,
+  "q_en": "What month and day is National Day?",
+  "a_en": "October 10.",
+  "key": "10月10日",
+  "key_en": "October 10.",
+  "tip": ""
+ },
+ {
+  "id": 218,
+  "q_en": "What month and day is Labor Day?",
+  "a_en": "May 1.",
+  "key": "5月1日",
+  "key_en": "May 1.",
+  "tip": ""
+ },
+ {
+  "id": 219,
+  "q_en": "What month and day is Teachers' Day?",
+  "a_en": "September 28.",
+  "key": "9月28日",
+  "key_en": "September 28.",
+  "tip": ""
+ },
+ {
+  "id": 220,
+  "q_en": "What month and day is Women's Day?",
+  "a_en": "March 8.",
+  "key": "3月8日",
+  "key_en": "March 8.",
+  "tip": ""
+ },
+ {
+  "id": 221,
+  "q_en": "What month and day is Children's Day?",
+  "a_en": "April 4.",
+  "key": "4月4日",
+  "key_en": "April 4.",
+  "tip": ""
+ },
+ {
+  "id": 222,
+  "q_en": "Which festival in Taiwan do you think is the most special? Why?",
+  "a_en": "(Answer freely.)",
+  "key": "中秋節，因為大家一起烤肉、吃月餅",
+  "key_en": "Mid-Autumn Festival, because everyone barbecues and eats mooncakes together.",
+  "tip": "Personal question: there is no fixed answer. Swap in your own details, keep it to one or two simple sentences, and practice saying it smoothly.",
+  "own": true
+ },
+ {
+  "id": 223,
+  "q_en": "What is the currency used in Taiwan called?",
+  "a_en": "The New Taiwan Dollar.",
+  "key": "新臺幣",
+  "key_en": "New Taiwan Dollar.",
+  "tip": ""
+ },
+ {
+  "id": 224,
+  "q_en": "What is the anti-fraud hotline number?",
+  "a_en": "165.",
+  "key": "165",
+  "key_en": "165.",
+  "tip": "165 = anti-fraud; 110 = police; 119 = fire/ambulance."
+ },
+ {
+  "id": 225,
+  "q_en": "If you pick or break flowers and plants in a national park, or carve words or images on trees, rocks, or signs, can you be fined up to NT$1,000?",
+  "a_en": "Yes.",
+  "key": "會",
+  "key_en": "Yes.",
+  "tip": ""
+ },
+ {
+  "id": 226,
+  "q_en": "When residents have a dispute that is hard to resolve, which unit can be asked to help mediate?",
+  "a_en": "The Township/City/District Mediation Committee.",
+  "key": "鄉鎮市區調解委員會",
+  "key_en": "Township/District Mediation Committee.",
+  "tip": ""
+ },
+ {
+  "id": 227,
+  "q_en": "People under what age are not allowed to enter video game arcades?",
+  "a_en": "18 years old.",
+  "key": "18歲",
+  "key_en": "18 years old.",
+  "tip": ""
+ },
+ {
+  "id": 228,
+  "q_en": "If a family member goes missing, which agency can you report it to for help finding them?",
+  "a_en": "The police.",
+  "key": "警察機關",
+  "key_en": "The police.",
+  "tip": ""
+ },
+ {
+  "id": 229,
+  "q_en": "What is your home address?",
+  "a_en": "[County/City] [Township/District] [Village] [Neighborhood] [Street/Road], Section [ ], Lane [ ], Alley [ ], No. [ ], Floor [ ]. (State your own address.)",
+  "key": "我住在新北市淡水區……",
+  "key_en": "I live in Tamsui District, New Taipei City... (say your full address)",
+  "tip": "Personal question: there is no fixed answer. Swap in your own details, keep it to one or two simple sentences, and practice saying it smoothly.",
+  "own": true
+ },
+ {
+  "id": 230,
+  "q_en": "Please introduce your family members.",
+  "a_en": "(Answer in your own words.)",
+  "key": "我家有……個人，有……",
+  "key_en": "My family has ... people: ... (say who they are)",
+  "tip": "Personal question: there is no fixed answer. Swap in your own details, keep it to one or two simple sentences, and practice saying it smoothly.",
+  "own": true
+ },
+ {
+  "id": 231,
+  "q_en": "What country did you come to Taiwan from? Why did you come to Taiwan?",
+  "a_en": "(Answer freely.)",
+  "key": "我是從阿根廷來的，因為工作來臺灣",
+  "key_en": "I came from Argentina. I came to Taiwan for work.",
+  "tip": "Personal question: there is no fixed answer. Swap in your own details, keep it to one or two simple sentences, and practice saying it smoothly.",
+  "own": true
+ },
+ {
+  "id": 232,
+  "q_en": "What has left the deepest impression on you in Taiwan?",
+  "a_en": "(Answer freely.)",
+  "key": "臺灣人很友善，而且很安全",
+  "key_en": "Taiwanese people are very friendly, and it's very safe.",
+  "tip": "Personal question: there is no fixed answer. Swap in your own details, keep it to one or two simple sentences, and practice saying it smoothly.",
+  "own": true
+ },
+ {
+  "id": 233,
+  "q_en": "What leisure activities do you usually do?",
+  "a_en": "(Answer freely.)",
+  "key": "我平常喜歡運動、看電影",
+  "key_en": "I usually like exercising and watching movies.",
+  "tip": "Personal question: there is no fixed answer. Swap in your own details, keep it to one or two simple sentences, and practice saying it smoothly.",
+  "own": true
+ },
+ {
+  "id": 234,
+  "q_en": "In Taiwan, is it legal to kill dogs or cats, or to eat dog or cat meat?",
+  "a_en": "No.",
+  "key": "不是",
+  "key_en": "No.",
+  "tip": ""
+ },
+ {
+  "id": 235,
+  "q_en": "Do you keep a pet in Taiwan? Do you know how to take care of it?",
+  "a_en": "(Answer freely.)",
+  "key": "沒有，但是我知道要帶牠打預防針",
+  "key_en": "No, but I know you have to take them for vaccinations.",
+  "tip": "Personal question: there is no fixed answer. Swap in your own details, keep it to one or two simple sentences, and practice saying it smoothly.",
+  "own": true
+ },
+ {
+  "id": 236,
+  "q_en": "When entering the country, are you allowed to bring meat products with you?",
+  "a_en": "No.",
+  "key": "不可以",
+  "key_en": "No.",
+  "tip": ""
+ },
+ {
+  "id": 237,
+  "q_en": "Can you have family or friends mail pork or other meat products (items subject to animal quarantine) to Taiwan from abroad?",
+  "a_en": "No.",
+  "key": "不可以",
+  "key_en": "No.",
+  "tip": ""
+ }
+]

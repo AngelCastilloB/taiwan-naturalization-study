@@ -1,0 +1,2336 @@
+[
+  {
+    "zh": "直轄市",
+    "en": "special municipality",
+    "cat": "政府組織類",
+    "ids": [
+      8,
+      10,
+      131,
+      152,
+      157,
+      158,
+      160,
+      163,
+      164,
+      165,
+      203
+    ],
+    "freq": 11
+  },
+  {
+    "zh": "移民署",
+    "en": "National Immigration Agency",
+    "cat": "政府組織類",
+    "ids": [
+      12,
+      47,
+      48,
+      50,
+      52,
+      65,
+      66,
+      67,
+      70,
+      115
+    ],
+    "freq": 10
+  },
+  {
+    "zh": "內政部",
+    "en": "Ministry of the Interior",
+    "cat": "政府組織類",
+    "ids": [
+      12,
+      44,
+      52,
+      62,
+      65,
+      66,
+      67,
+      115
+    ],
+    "freq": 8
+  },
+  {
+    "zh": "憲法",
+    "en": "Constitution",
+    "cat": "政府組織類",
+    "ids": [
+      6,
+      13,
+      18,
+      21,
+      23,
+      24,
+      25
+    ],
+    "freq": 7
+  },
+  {
+    "zh": "立法委員",
+    "en": "legislator (member of the Legislative Yuan)",
+    "cat": "政府組織類",
+    "ids": [
+      6,
+      7,
+      19
+    ],
+    "freq": 3
+  },
+  {
+    "zh": "行政院",
+    "en": "Executive Yuan",
+    "cat": "政府組織類",
+    "ids": [
+      3,
+      4
+    ],
+    "freq": 2
+  },
+  {
+    "zh": "立法院",
+    "en": "Legislative Yuan",
+    "cat": "政府組織類",
+    "ids": [
+      3,
+      5
+    ],
+    "freq": 2
+  },
+  {
+    "zh": "中央政府",
+    "en": "central government",
+    "cat": "政府組織類",
+    "ids": [
+      3,
+      8
+    ],
+    "freq": 2
+  },
+  {
+    "zh": "五院",
+    "en": "the Five Yuan (branches of ROC government)",
+    "cat": "政府組織類",
+    "ids": [
+      3
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "司法院",
+    "en": "Judicial Yuan",
+    "cat": "政府組織類",
+    "ids": [
+      3
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "考試院",
+    "en": "Examination Yuan",
+    "cat": "政府組織類",
+    "ids": [
+      3
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "監察院",
+    "en": "Control Yuan",
+    "cat": "政府組織類",
+    "ids": [
+      3
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "地方自治",
+    "en": "local self-government",
+    "cat": "政府組織類",
+    "ids": [
+      8
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "縣（市）議會",
+    "en": "county/city council",
+    "cat": "政府組織類",
+    "ids": [
+      11
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "青天白日滿地紅",
+    "en": "Blue Sky, White Sun, and a Wholly Red Earth (name of the ROC flag)",
+    "cat": "國旗類",
+    "ids": [
+      13
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "歸化",
+    "en": "naturalization",
+    "cat": "參政權類",
+    "ids": [
+      17,
+      19,
+      20,
+      44,
+      55,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      76,
+      77,
+      78,
+      82,
+      83,
+      112,
+      113,
+      115
+    ],
+    "freq": 31
+  },
+  {
+    "zh": "歸化國籍",
+    "en": "naturalized citizenship / naturalization",
+    "cat": "參政權類",
+    "ids": [
+      17,
+      19,
+      20,
+      58,
+      60,
+      61,
+      62,
+      63,
+      64,
+      67,
+      70,
+      71,
+      77,
+      78,
+      82,
+      83
+    ],
+    "freq": 16
+  },
+  {
+    "zh": "國民身分證",
+    "en": "National Identification Card",
+    "cat": "參政權類",
+    "ids": [
+      17,
+      65,
+      67,
+      79,
+      80,
+      81,
+      82,
+      93,
+      95,
+      96,
+      98,
+      152
+    ],
+    "freq": 12
+  },
+  {
+    "zh": "設戶籍",
+    "en": "establish household registration",
+    "cat": "參政權類",
+    "ids": [
+      17,
+      65,
+      67,
+      70,
+      82,
+      83,
+      86,
+      113,
+      115,
+      125
+    ],
+    "freq": 10
+  },
+  {
+    "zh": "選舉權",
+    "en": "right to vote",
+    "cat": "參政權類",
+    "ids": [
+      15,
+      16,
+      18,
+      24
+    ],
+    "freq": 4
+  },
+  {
+    "zh": "參政權",
+    "en": "right of political participation",
+    "cat": "參政權類",
+    "ids": [
+      15,
+      16,
+      24
+    ],
+    "freq": 3
+  },
+  {
+    "zh": "候選人",
+    "en": "candidate",
+    "cat": "參政權類",
+    "ids": [
+      19,
+      20,
+      29
+    ],
+    "freq": 3
+  },
+  {
+    "zh": "罷免權",
+    "en": "right of recall",
+    "cat": "參政權類",
+    "ids": [
+      15,
+      16
+    ],
+    "freq": 2
+  },
+  {
+    "zh": "創制權",
+    "en": "right of initiative",
+    "cat": "參政權類",
+    "ids": [
+      16
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "複決權",
+    "en": "right of referendum",
+    "cat": "參政權類",
+    "ids": [
+      16
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "聲請",
+    "en": "petition/apply (to a court)",
+    "cat": "一般法律類",
+    "ids": [
+      40,
+      88,
+      131,
+      132,
+      133
+    ],
+    "freq": 5
+  },
+  {
+    "zh": "民法",
+    "en": "Civil Code",
+    "cat": "一般法律類",
+    "ids": [
+      26,
+      30,
+      65,
+      94
+    ],
+    "freq": 4
+  },
+  {
+    "zh": "保護令",
+    "en": "protection order",
+    "cat": "一般法律類",
+    "ids": [
+      40,
+      131,
+      132,
+      133
+    ],
+    "freq": 4
+  },
+  {
+    "zh": "法定代理人",
+    "en": "legal representative/guardian",
+    "cat": "一般法律類",
+    "ids": [
+      27,
+      45,
+      60
+    ],
+    "freq": 3
+  },
+  {
+    "zh": "基本權利",
+    "en": "basic rights",
+    "cat": "一般法律類",
+    "ids": [
+      23,
+      24
+    ],
+    "freq": 2
+  },
+  {
+    "zh": "認領",
+    "en": "claim (lost property) / acknowledge (paternity)",
+    "cat": "一般法律類",
+    "ids": [
+      31,
+      84
+    ],
+    "freq": 2
+  },
+  {
+    "zh": "大麻",
+    "en": "marijuana/cannabis",
+    "cat": "一般法律類",
+    "ids": [
+      37,
+      38
+    ],
+    "freq": 2
+  },
+  {
+    "zh": "毒品",
+    "en": "narcotics/drugs",
+    "cat": "一般法律類",
+    "ids": [
+      28,
+      36
+    ],
+    "freq": 2
+  },
+  {
+    "zh": "主權",
+    "en": "sovereignty",
+    "cat": "一般法律類",
+    "ids": [
+      22
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "平等權",
+    "en": "right to equality",
+    "cat": "一般法律類",
+    "ids": [
+      24
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "人身自由權",
+    "en": "right to personal freedom",
+    "cat": "一般法律類",
+    "ids": [
+      24
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "行動自由權",
+    "en": "right to freedom of movement",
+    "cat": "一般法律類",
+    "ids": [
+      24
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "意見自由權",
+    "en": "right to freedom of expression",
+    "cat": "一般法律類",
+    "ids": [
+      24
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "通訊自由權",
+    "en": "right to freedom of communication",
+    "cat": "一般法律類",
+    "ids": [
+      24
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "宗教自由權",
+    "en": "right to freedom of religion",
+    "cat": "一般法律類",
+    "ids": [
+      24
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "集會結社自由權",
+    "en": "right to freedom of assembly and association",
+    "cat": "一般法律類",
+    "ids": [
+      24
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "刑責",
+    "en": "criminal liability",
+    "cat": "一般法律類",
+    "ids": [
+      28
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "死刑",
+    "en": "death penalty",
+    "cat": "一般法律類",
+    "ids": [
+      28
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "繼承權",
+    "en": "right of inheritance",
+    "cat": "一般法律類",
+    "ids": [
+      30
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "遺產",
+    "en": "estate/inheritance",
+    "cat": "一般法律類",
+    "ids": [
+      30
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "持有槍械",
+    "en": "possess firearms",
+    "cat": "一般法律類",
+    "ids": [
+      32
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "勒索",
+    "en": "extortion",
+    "cat": "一般法律類",
+    "ids": [
+      33
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "保育類動物",
+    "en": "protected (endangered) species",
+    "cat": "一般法律類",
+    "ids": [
+      34
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "公然侮辱罪",
+    "en": "crime of public insult",
+    "cat": "一般法律類",
+    "ids": [
+      39
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "罌粟",
+    "en": "poppy",
+    "cat": "一般法律類",
+    "ids": [
+      38
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "古柯鹼",
+    "en": "cocaine",
+    "cat": "一般法律類",
+    "ids": [
+      28
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "古柯種子",
+    "en": "coca seeds",
+    "cat": "一般法律類",
+    "ids": [
+      38
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "夾帶",
+    "en": "smuggle (conceal in luggage)",
+    "cat": "一般法律類",
+    "ids": [
+      36
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "戶政事務所",
+    "en": "Household Registration Office",
+    "cat": "簽證及護照類",
+    "ids": [
+      46,
+      58,
+      65,
+      67,
+      76,
+      78,
+      80,
+      82,
+      83,
+      84,
+      86,
+      89,
+      90,
+      91,
+      92,
+      94,
+      95
+    ],
+    "freq": 17
+  },
+  {
+    "zh": "簽證",
+    "en": "visa",
+    "cat": "簽證及護照類",
+    "ids": [
+      41,
+      42,
+      43,
+      48,
+      53,
+      111
+    ],
+    "freq": 6
+  },
+  {
+    "zh": "護照",
+    "en": "passport",
+    "cat": "簽證及護照類",
+    "ids": [
+      42,
+      44,
+      45,
+      46,
+      52,
+      111
+    ],
+    "freq": 6
+  },
+  {
+    "zh": "居留簽證",
+    "en": "residency visa",
+    "cat": "簽證及護照類",
+    "ids": [
+      43,
+      48
+    ],
+    "freq": 2
+  },
+  {
+    "zh": "研習",
+    "en": "training/study (visa category)",
+    "cat": "簽證及護照類",
+    "ids": [
+      43,
+      154
+    ],
+    "freq": 2
+  },
+  {
+    "zh": "依親",
+    "en": "family dependent (visa category)",
+    "cat": "簽證及護照類",
+    "ids": [
+      43
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "監護工",
+    "en": "caregiver (foreign worker category)",
+    "cat": "簽證及護照類",
+    "ids": [
+      43
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "駐外館處",
+    "en": "overseas mission/representative office",
+    "cat": "簽證及護照類",
+    "ids": [
+      41
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "領事事務局",
+    "en": "Bureau of Consular Affairs",
+    "cat": "簽證及護照類",
+    "ids": [
+      46
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "人別確認",
+    "en": "identity verification",
+    "cat": "簽證及護照類",
+    "ids": [
+      46
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "服務站",
+    "en": "service station/counter",
+    "cat": "居留類",
+    "ids": [
+      47,
+      48,
+      50,
+      52,
+      70,
+      152,
+      153,
+      154,
+      165
+    ],
+    "freq": 9
+  },
+  {
+    "zh": "外僑居留證",
+    "en": "Alien Resident Certificate (ARC)",
+    "cat": "居留類",
+    "ids": [
+      47,
+      48,
+      49,
+      66,
+      151
+    ],
+    "freq": 5
+  },
+  {
+    "zh": "永久居留證",
+    "en": "Alien Permanent Resident Certificate (APRC)",
+    "cat": "居留類",
+    "ids": [
+      47,
+      151
+    ],
+    "freq": 2
+  },
+  {
+    "zh": "逾期居留",
+    "en": "overstay",
+    "cat": "居留類",
+    "ids": [
+      51
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "驅逐出國",
+    "en": "deportation",
+    "cat": "居留類",
+    "ids": [
+      51
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "觀光簽證",
+    "en": "tourist visa",
+    "cat": "居留類",
+    "ids": [
+      53
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "國境事務隊",
+    "en": "Border Affairs Corps (of the National Immigration Agency)",
+    "cat": "居留類",
+    "ids": [
+      52
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "外籍配偶",
+    "en": "foreign spouse",
+    "cat": "歸化類",
+    "ids": [
+      59,
+      63,
+      68,
+      69,
+      151,
+      152,
+      153,
+      154,
+      156
+    ],
+    "freq": 9
+  },
+  {
+    "zh": "初設戶籍",
+    "en": "initial household registration",
+    "cat": "歸化類",
+    "ids": [
+      65,
+      67,
+      82,
+      86,
+      113,
+      115,
+      125
+    ],
+    "freq": 7
+  },
+  {
+    "zh": "戶籍登記",
+    "en": "household registration",
+    "cat": "歸化類",
+    "ids": [
+      65,
+      67,
+      81,
+      83,
+      113,
+      125
+    ],
+    "freq": 6
+  },
+  {
+    "zh": "原屬國",
+    "en": "country of origin",
+    "cat": "歸化類",
+    "ids": [
+      56,
+      57,
+      73
+    ],
+    "freq": 3
+  },
+  {
+    "zh": "定居證",
+    "en": "Taiwan Area Settlement Certificate",
+    "cat": "歸化類",
+    "ids": [
+      65,
+      67,
+      83
+    ],
+    "freq": 3
+  },
+  {
+    "zh": "新臺幣",
+    "en": "New Taiwan Dollar",
+    "cat": "歸化類",
+    "ids": [
+      72,
+      223,
+      225
+    ],
+    "freq": 3
+  },
+  {
+    "zh": "養子女",
+    "en": "adopted child",
+    "cat": "歸化類",
+    "ids": [
+      59,
+      63
+    ],
+    "freq": 2
+  },
+  {
+    "zh": "展延",
+    "en": "extend (a deadline/permit)",
+    "cat": "歸化類",
+    "ids": [
+      74,
+      76
+    ],
+    "freq": 2
+  },
+  {
+    "zh": "殊勳",
+    "en": "meritorious/distinguished service",
+    "cat": "歸化類",
+    "ids": [
+      57
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "高級專業人才",
+    "en": "high-level professional talent",
+    "cat": "歸化類",
+    "ids": [
+      57
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "不可歸責",
+    "en": "not attributable (to the person)",
+    "cat": "歸化類",
+    "ids": [
+      57
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "合法居留",
+    "en": "legal residence",
+    "cat": "歸化類",
+    "ids": [
+      63
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "隨同歸化",
+    "en": "accompanying naturalization",
+    "cat": "歸化類",
+    "ids": [
+      64
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "不良素行",
+    "en": "bad conduct/poor record",
+    "cat": "歸化類",
+    "ids": [
+      75
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "緩起訴",
+    "en": "deferred prosecution",
+    "cat": "歸化類",
+    "ids": [
+      75
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "拘役",
+    "en": "detention (minor criminal punishment)",
+    "cat": "歸化類",
+    "ids": [
+      75
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "罰金",
+    "en": "criminal fine",
+    "cat": "歸化類",
+    "ids": [
+      75
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "緩刑",
+    "en": "suspended sentence/probation",
+    "cat": "歸化類",
+    "ids": [
+      75
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "規費",
+    "en": "administrative fee",
+    "cat": "歸化類",
+    "ids": [
+      72
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "匯票",
+    "en": "money order",
+    "cat": "歸化類",
+    "ids": [
+      78
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "書面",
+    "en": "in writing/written",
+    "cat": "戶籍類",
+    "ids": [
+      87,
+      91,
+      159,
+      202
+    ],
+    "freq": 4
+  },
+  {
+    "zh": "戶籍謄本",
+    "en": "household registration transcript",
+    "cat": "戶籍類",
+    "ids": [
+      86,
+      89
+    ],
+    "freq": 2
+  },
+  {
+    "zh": "收養",
+    "en": "adoption",
+    "cat": "戶籍類",
+    "ids": [
+      84,
+      88
+    ],
+    "freq": 2
+  },
+  {
+    "zh": "補領",
+    "en": "apply for reissuance",
+    "cat": "戶籍類",
+    "ids": [
+      95,
+      96
+    ],
+    "freq": 2
+  },
+  {
+    "zh": "換發",
+    "en": "reissue",
+    "cat": "戶籍類",
+    "ids": [
+      81
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "判決離婚",
+    "en": "divorce by court judgment",
+    "cat": "戶籍類",
+    "ids": [
+      84
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "調解離婚",
+    "en": "divorce by mediation",
+    "cat": "戶籍類",
+    "ids": [
+      84
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "偽（變）造",
+    "en": "forge/alter (falsify)",
+    "cat": "戶籍類",
+    "ids": [
+      93
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "冒名",
+    "en": "impersonate",
+    "cat": "戶籍類",
+    "ids": [
+      93
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "國民義務教育",
+    "en": "compulsory national education",
+    "cat": "教育類",
+    "ids": [
+      99,
+      100
+    ],
+    "freq": 2
+  },
+  {
+    "zh": "補習學校",
+    "en": "supplementary school",
+    "cat": "教育類",
+    "ids": [
+      102
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "自學進修",
+    "en": "self-study",
+    "cat": "教育類",
+    "ids": [
+      102
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "學力鑑定考試",
+    "en": "proficiency certification exam",
+    "cat": "教育類",
+    "ids": [
+      102
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "同等學力",
+    "en": "equivalent educational qualification",
+    "cat": "教育類",
+    "ids": [
+      102
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "綜合所得稅",
+    "en": "individual (comprehensive) income tax",
+    "cat": "財稅金融類",
+    "ids": [
+      104,
+      105,
+      106,
+      108
+    ],
+    "freq": 4
+  },
+  {
+    "zh": "申報",
+    "en": "file/declare (taxes)",
+    "cat": "財稅金融類",
+    "ids": [
+      105,
+      106,
+      108,
+      109
+    ],
+    "freq": 4
+  },
+  {
+    "zh": "營利事業所得稅",
+    "en": "business (profit-seeking enterprise) income tax",
+    "cat": "財稅金融類",
+    "ids": [
+      104,
+      109
+    ],
+    "freq": 2
+  },
+  {
+    "zh": "健保卡",
+    "en": "National Health Insurance card",
+    "cat": "財稅金融類",
+    "ids": [
+      111,
+      143
+    ],
+    "freq": 2
+  },
+  {
+    "zh": "駕照",
+    "en": "driver's license (short form)",
+    "cat": "財稅金融類",
+    "ids": [
+      111,
+      171
+    ],
+    "freq": 2
+  },
+  {
+    "zh": "統一發票",
+    "en": "uniform invoice",
+    "cat": "財稅金融類",
+    "ids": [
+      107
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "扣除額",
+    "en": "deduction",
+    "cat": "財稅金融類",
+    "ids": [
+      108
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "贈與稅",
+    "en": "gift tax",
+    "cat": "財稅金融類",
+    "ids": [
+      110
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "課徵",
+    "en": "levy/impose (a tax)",
+    "cat": "財稅金融類",
+    "ids": [
+      110
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "國稅局",
+    "en": "National Taxation Bureau",
+    "cat": "財稅金融類",
+    "ids": [
+      106
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "服兵役",
+    "en": "perform military service",
+    "cat": "兵役類",
+    "ids": [
+      112,
+      113,
+      114
+    ],
+    "freq": 3
+  },
+  {
+    "zh": "役齡",
+    "en": "military service age",
+    "cat": "兵役類",
+    "ids": [
+      113,
+      115
+    ],
+    "freq": 2
+  },
+  {
+    "zh": "鄉（鎮、市、區）公所",
+    "en": "township/city/district office",
+    "cat": "社會福利類",
+    "ids": [
+      118,
+      119,
+      120,
+      121,
+      125
+    ],
+    "freq": 5
+  },
+  {
+    "zh": "勞工保險",
+    "en": "labor insurance",
+    "cat": "社會福利類",
+    "ids": [
+      117,
+      122,
+      130,
+      156
+    ],
+    "freq": 4
+  },
+  {
+    "zh": "衛生所",
+    "en": "health center/clinic",
+    "cat": "社會福利類",
+    "ids": [
+      128,
+      146,
+      147
+    ],
+    "freq": 3
+  },
+  {
+    "zh": "國民年金保險",
+    "en": "National Pension Insurance",
+    "cat": "社會福利類",
+    "ids": [
+      116,
+      117
+    ],
+    "freq": 2
+  },
+  {
+    "zh": "低收入戶",
+    "en": "low-income household",
+    "cat": "社會福利類",
+    "ids": [
+      119,
+      120
+    ],
+    "freq": 2
+  },
+  {
+    "zh": "早期療育",
+    "en": "early intervention (therapy)",
+    "cat": "社會福利類",
+    "ids": [
+      127,
+      128
+    ],
+    "freq": 2
+  },
+  {
+    "zh": "土石流",
+    "en": "debris flow/mudslide",
+    "cat": "社會福利類",
+    "ids": [
+      118,
+      198
+    ],
+    "freq": 2
+  },
+  {
+    "zh": "勞工保險局",
+    "en": "Bureau of Labor Insurance",
+    "cat": "社會福利類",
+    "ids": [
+      117
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "生活扶助",
+    "en": "living assistance/subsidy",
+    "cat": "社會福利類",
+    "ids": [
+      119
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "急難救助",
+    "en": "emergency relief assistance",
+    "cat": "社會福利類",
+    "ids": [
+      121
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "農民健康保險",
+    "en": "Farmers' Health Insurance",
+    "cat": "社會福利類",
+    "ids": [
+      130
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "身心障礙者",
+    "en": "person with physical/mental disabilities",
+    "cat": "社會福利類",
+    "ids": [
+      124
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "育兒津貼",
+    "en": "childcare allowance",
+    "cat": "社會福利類",
+    "ids": [
+      125
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "普遍級",
+    "en": "general audience rating",
+    "cat": "社會福利類",
+    "ids": [
+      126
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "發展遲緩兒童",
+    "en": "developmentally delayed children",
+    "cat": "社會福利類",
+    "ids": [
+      127
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "篩檢",
+    "en": "screening (medical)",
+    "cat": "社會福利類",
+    "ids": [
+      128
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "投保單位",
+    "en": "insured/enrolling unit",
+    "cat": "社會福利類",
+    "ids": [
+      123
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "家庭暴力",
+    "en": "domestic violence",
+    "cat": "家庭暴力防治類",
+    "ids": [
+      131,
+      132,
+      133,
+      134
+    ],
+    "freq": 4
+  },
+  {
+    "zh": "性侵害防治中心",
+    "en": "Sexual Assault Prevention Center",
+    "cat": "家庭暴力防治類",
+    "ids": [
+      131
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "婦幼保護專線",
+    "en": "Women's and Children's Protection Hotline",
+    "cat": "家庭暴力防治類",
+    "ids": [
+      134
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "地政事務所",
+    "en": "Land Administration Office",
+    "cat": "地政類",
+    "ids": [
+      135,
+      136,
+      137
+    ],
+    "freq": 3
+  },
+  {
+    "zh": "地價謄本",
+    "en": "land value transcript",
+    "cat": "地政類",
+    "ids": [
+      135
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "產權移轉登記",
+    "en": "property transfer registration",
+    "cat": "地政類",
+    "ids": [
+      136
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "繼承登記",
+    "en": "inheritance registration",
+    "cat": "地政類",
+    "ids": [
+      137
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "被繼承人",
+    "en": "decedent",
+    "cat": "地政類",
+    "ids": [
+      137
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "全民健康保險",
+    "en": "National Health Insurance",
+    "cat": "全民健保及醫療類",
+    "ids": [
+      138,
+      139,
+      140,
+      141,
+      145,
+      156
+    ],
+    "freq": 6
+  },
+  {
+    "zh": "中央健康保險署",
+    "en": "National Health Insurance Administration",
+    "cat": "全民健保及醫療類",
+    "ids": [
+      141,
+      145
+    ],
+    "freq": 2
+  },
+  {
+    "zh": "眷屬",
+    "en": "dependent (family member)",
+    "cat": "全民健保及醫療類",
+    "ids": [
+      139
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "重大傷病證明卡",
+    "en": "Catastrophic Illness Certificate",
+    "cat": "全民健保及醫療類",
+    "ids": [
+      142
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "部分負擔",
+    "en": "co-payment",
+    "cat": "全民健保及醫療類",
+    "ids": [
+      142
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "轉診",
+    "en": "referral (to another hospital)",
+    "cat": "全民健保及醫療類",
+    "ids": [
+      144
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "疫苗",
+    "en": "vaccine",
+    "cat": "全民健保及醫療類",
+    "ids": [
+      147
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "預防接種",
+    "en": "vaccination",
+    "cat": "全民健保及醫療類",
+    "ids": [
+      147
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "腸病毒",
+    "en": "enterovirus",
+    "cat": "全民健保及醫療類",
+    "ids": [
+      148
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "醫療院所",
+    "en": "medical institution",
+    "cat": "全民健保及醫療類",
+    "ids": [
+      143
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "勞工局",
+    "en": "Bureau of Labor Affairs",
+    "cat": "就業類",
+    "ids": [
+      152,
+      157,
+      158,
+      160,
+      163,
+      164,
+      165
+    ],
+    "freq": 7
+  },
+  {
+    "zh": "雇主",
+    "en": "employer",
+    "cat": "就業類",
+    "ids": [
+      152,
+      155,
+      159,
+      160,
+      161
+    ],
+    "freq": 5
+  },
+  {
+    "zh": "就業服務站",
+    "en": "employment service station",
+    "cat": "就業類",
+    "ids": [
+      152,
+      153,
+      154,
+      165
+    ],
+    "freq": 4
+  },
+  {
+    "zh": "僱用",
+    "en": "hire/employ",
+    "cat": "就業類",
+    "ids": [
+      152,
+      155,
+      156
+    ],
+    "freq": 3
+  },
+  {
+    "zh": "勞動基準法",
+    "en": "Labor Standards Act",
+    "cat": "就業類",
+    "ids": [
+      161,
+      162
+    ],
+    "freq": 2
+  },
+  {
+    "zh": "工作許可",
+    "en": "work permit",
+    "cat": "就業類",
+    "ids": [
+      151
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "保證金",
+    "en": "security deposit/bond",
+    "cat": "就業類",
+    "ids": [
+      155
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "扣留證件",
+    "en": "withhold (identity) documents",
+    "cat": "就業類",
+    "ids": [
+      155
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "勞工職業災害保險",
+    "en": "labor occupational injury insurance",
+    "cat": "就業類",
+    "ids": [
+      156
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "勞動契約",
+    "en": "labor contract",
+    "cat": "就業類",
+    "ids": [
+      159
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "協助調解",
+    "en": "assist with mediation",
+    "cat": "就業類",
+    "ids": [
+      160
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "基本工資",
+    "en": "minimum wage",
+    "cat": "就業類",
+    "ids": [
+      162
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "提繳",
+    "en": "contribute (to a fund)",
+    "cat": "就業類",
+    "ids": [
+      161
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "退休金",
+    "en": "pension/retirement fund",
+    "cat": "就業類",
+    "ids": [
+      161
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "就業歧視",
+    "en": "employment discrimination",
+    "cat": "就業類",
+    "ids": [
+      163
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "勞資爭議",
+    "en": "labor dispute",
+    "cat": "就業類",
+    "ids": [
+      166
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "駕駛執照",
+    "en": "driver's license",
+    "cat": "交通安全類",
+    "ids": [
+      167,
+      170
+    ],
+    "freq": 2
+  },
+  {
+    "zh": "強制汽車責任保險",
+    "en": "Compulsory Automobile Liability Insurance",
+    "cat": "交通安全類",
+    "ids": [
+      169
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "路肩",
+    "en": "road shoulder",
+    "cat": "交通安全類",
+    "ids": [
+      174
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "闖越紅燈",
+    "en": "run a red light",
+    "cat": "交通安全類",
+    "ids": [
+      175
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "逃生艙門",
+    "en": "emergency exit hatch",
+    "cat": "交通安全類",
+    "ids": [
+      179
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "駕駛艙",
+    "en": "cockpit",
+    "cat": "交通安全類",
+    "ids": [
+      180
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "幼童安全座椅",
+    "en": "child safety seat",
+    "cat": "交通安全類",
+    "ids": [
+      182
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "迴轉",
+    "en": "make a U-turn",
+    "cat": "交通安全類",
+    "ids": [
+      183
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "排氣定期檢驗",
+    "en": "periodic emissions inspection",
+    "cat": "環境保護類",
+    "ids": [
+      187,
+      188
+    ],
+    "freq": 2
+  },
+  {
+    "zh": "檢舉",
+    "en": "report/inform (an offense)",
+    "cat": "環境保護類",
+    "ids": [
+      191,
+      194
+    ],
+    "freq": 2
+  },
+  {
+    "zh": "廢棄物",
+    "en": "waste",
+    "cat": "環境保護類",
+    "ids": [
+      189
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "清潔隊",
+    "en": "sanitation squad",
+    "cat": "環境保護類",
+    "ids": [
+      189
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "登革熱",
+    "en": "dengue fever",
+    "cat": "環境保護類",
+    "ids": [
+      190
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "環境保護局",
+    "en": "Environmental Protection Bureau",
+    "cat": "環境保護類",
+    "ids": [
+      191
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "節能減碳",
+    "en": "energy conservation and carbon reduction",
+    "cat": "環境保護類",
+    "ids": [
+      192
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "警戒管制區域",
+    "en": "warning/control zone",
+    "cat": "災害防治類",
+    "ids": [
+      193
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "消防局",
+    "en": "Fire Department",
+    "cat": "災害防治類",
+    "ids": [
+      194
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "天然災害",
+    "en": "natural disaster",
+    "cat": "災害防治類",
+    "ids": [
+      198
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "山崩",
+    "en": "landslide",
+    "cat": "災害防治類",
+    "ids": [
+      198
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "消費者保護法",
+    "en": "Consumer Protection Act",
+    "cat": "消費者保護類",
+    "ids": [
+      201
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "訪問交易",
+    "en": "door-to-door sales transaction",
+    "cat": "消費者保護類",
+    "ids": [
+      202
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "解除契約",
+    "en": "rescind/cancel a contract",
+    "cat": "消費者保護類",
+    "ids": [
+      202
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "企業經營者",
+    "en": "business operator",
+    "cat": "消費者保護類",
+    "ids": [
+      203
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "消費爭議",
+    "en": "consumer dispute",
+    "cat": "消費者保護類",
+    "ids": [
+      203
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "原住民",
+    "en": "indigenous people",
+    "cat": "自然環境及原住民類",
+    "ids": [
+      208,
+      210,
+      211
+    ],
+    "freq": 3
+  },
+  {
+    "zh": "山脈",
+    "en": "mountain range",
+    "cat": "自然環境及原住民類",
+    "ids": [
+      205
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "原住民族委員會",
+    "en": "Council of Indigenous Peoples",
+    "cat": "自然環境及原住民類",
+    "ids": [
+      210
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "名勝古蹟",
+    "en": "scenic spots and historical sites",
+    "cat": "自然環境及原住民類",
+    "ids": [
+      209
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "端午節",
+    "en": "Dragon Boat Festival",
+    "cat": "民俗節慶類",
+    "ids": [
+      212
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "清明節",
+    "en": "Tomb Sweeping Festival",
+    "cat": "民俗節慶類",
+    "ids": [
+      213
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "中秋節",
+    "en": "Mid-Autumn Festival",
+    "cat": "民俗節慶類",
+    "ids": [
+      214
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "農曆春節",
+    "en": "Lunar New Year",
+    "cat": "民俗節慶類",
+    "ids": [
+      215
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "元宵節",
+    "en": "Lantern Festival",
+    "cat": "民俗節慶類",
+    "ids": [
+      216
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "國慶日",
+    "en": "National Day",
+    "cat": "民俗節慶類",
+    "ids": [
+      217
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "教師節",
+    "en": "Teachers' Day",
+    "cat": "民俗節慶類",
+    "ids": [
+      219
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "罰緩",
+    "en": "fine/penalty",
+    "cat": "日常生活類",
+    "ids": [
+      225
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "調解委員會",
+    "en": "mediation committee",
+    "cat": "日常生活類",
+    "ids": [
+      226
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "動物檢疫品",
+    "en": "animal quarantine products",
+    "cat": "日常生活類",
+    "ids": [
+      237
+    ],
+    "freq": 1
+  },
+  {
+    "zh": "是否",
+    "en": "whether or not",
+    "cat": "題型",
+    "ids": [
+      37,
+      38,
+      66,
+      68,
+      69,
+      73,
+      76,
+      77,
+      82,
+      88,
+      92,
+      94,
+      122,
+      124,
+      156,
+      162,
+      176,
+      178,
+      179,
+      184,
+      186
+    ],
+    "freq": 21
+  },
+  {
+    "zh": "哪個機關",
+    "en": "which agency",
+    "cat": "題型",
+    "ids": [
+      33,
+      41,
+      58,
+      62,
+      70,
+      80,
+      89,
+      95,
+      118,
+      119,
+      120,
+      121,
+      133,
+      145,
+      146,
+      164,
+      165,
+      228
+    ],
+    "freq": 18
+  },
+  {
+    "zh": "答對1個即可",
+    "en": "one correct answer is enough",
+    "cat": "題型",
+    "ids": [
+      3,
+      16,
+      24,
+      31,
+      52,
+      106,
+      128,
+      131,
+      152,
+      153,
+      154,
+      158,
+      165,
+      169,
+      198,
+      200,
+      203
+    ],
+    "freq": 17
+  },
+  {
+    "zh": "可不可以",
+    "en": "is it allowed to...",
+    "cat": "題型",
+    "ids": [
+      20,
+      29,
+      59,
+      64,
+      65,
+      71,
+      86,
+      93,
+      141,
+      174,
+      175,
+      193,
+      195,
+      236,
+      237
+    ],
+    "freq": 15
+  },
+  {
+    "zh": "幾歲",
+    "en": "how old / at what age",
+    "cat": "題型",
+    "ids": [
+      18,
+      26,
+      35,
+      79,
+      99,
+      101,
+      116,
+      127,
+      149,
+      170,
+      227
+    ],
+    "freq": 11
+  },
+  {
+    "zh": "是不是",
+    "en": "is it the case that...",
+    "cat": "題型",
+    "ids": [
+      30,
+      34,
+      67,
+      81,
+      85,
+      103,
+      112,
+      140,
+      142,
+      143
+    ],
+    "freq": 10
+  },
+  {
+    "zh": "幾年",
+    "en": "how many years / which year",
+    "cat": "題型",
+    "ids": [
+      2,
+      7,
+      10,
+      19,
+      63,
+      100,
+      113,
+      171,
+      188
+    ],
+    "freq": 9
+  },
+  {
+    "zh": "自行發揮",
+    "en": "(answer in your own words)",
+    "cat": "題型",
+    "ids": [
+      55,
+      150,
+      167,
+      209,
+      222,
+      231,
+      232,
+      233,
+      235
+    ],
+    "freq": 9
+  },
+  {
+    "zh": "應向",
+    "en": "should apply to / report to...",
+    "cat": "題型",
+    "ids": [
+      41,
+      47,
+      88,
+      94,
+      95,
+      115,
+      145
+    ],
+    "freq": 7
+  },
+  {
+    "zh": "幾個月",
+    "en": "how many months",
+    "cat": "題型",
+    "ids": [
+      42,
+      136,
+      137
+    ],
+    "freq": 3
+  },
+  {
+    "zh": "多久",
+    "en": "how long",
+    "cat": "題型",
+    "ids": [
+      17,
+      49,
+      138
+    ],
+    "freq": 3
+  },
+  {
+    "zh": "自行敘明",
+    "en": "(state in your own words)",
+    "cat": "題型",
+    "ids": [
+      56,
+      229,
+      230
+    ],
+    "freq": 3
+  },
+  {
+    "zh": "對不對",
+    "en": "right or wrong?",
+    "cat": "題型",
+    "ids": [
+      144
+    ],
+    "freq": 1
+  }
+]

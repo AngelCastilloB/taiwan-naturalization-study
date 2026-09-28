@@ -1,0 +1,484 @@
+[
+ {
+  "id": 1,
+  "q_en": "Who directly votes to elect the President of the Republic of China?",
+  "a_en": "All the people of the free area of the Republic of China.",
+  "key": "自由地區全體人民",
+  "key_en": "All people of the free area (Taiwan)",
+  "tip": ""
+ },
+ {
+  "id": 2,
+  "q_en": "Every how many years is the President of the Republic of China elected?",
+  "a_en": "4 years.",
+  "key": "4年",
+  "key_en": "4 years",
+  "tip": ""
+ },
+ {
+  "id": 3,
+  "q_en": "The central government of the Republic of China has five Yuans (branches). Name one that you know. (One correct answer is enough)",
+  "a_en": "Executive Yuan, Legislative Yuan, Judicial Yuan, Examination Yuan, Control Yuan.",
+  "key": "行政院",
+  "key_en": "Executive Yuan",
+  "tip": "Any one of the five Yuans is accepted."
+ },
+ {
+  "id": 4,
+  "q_en": "What is the highest administrative organ of the Republic of China?",
+  "a_en": "The Executive Yuan.",
+  "key": "行政院",
+  "key_en": "Executive Yuan",
+  "tip": ""
+ },
+ {
+  "id": 5,
+  "q_en": "What is the highest legislative organ of the Republic of China?",
+  "a_en": "The Legislative Yuan.",
+  "key": "立法院",
+  "key_en": "Legislative Yuan",
+  "tip": ""
+ },
+ {
+  "id": 6,
+  "q_en": "According to the ROC Constitution, who exercises legislative power on behalf of the people?",
+  "a_en": "Legislators (members of the Legislative Yuan).",
+  "key": "立法委員",
+  "key_en": "Legislators",
+  "tip": ""
+ },
+ {
+  "id": 7,
+  "q_en": "Currently, every how many years are legislators re-elected?",
+  "a_en": "4 years.",
+  "key": "4年",
+  "key_en": "4 years",
+  "tip": ""
+ },
+ {
+  "id": 8,
+  "q_en": "Are special municipalities and counties/cities part of local self-government, or part of the central government?",
+  "a_en": "They belong to the level of local self-government.",
+  "key": "地方自治的層級",
+  "key_en": "Level of local self-government",
+  "tip": ""
+ },
+ {
+  "id": 9,
+  "q_en": "Are county/city heads elected by the people, or appointed by the government?",
+  "a_en": "Elected by the people.",
+  "key": "人民選舉產生的",
+  "key_en": "Elected by the people",
+  "tip": ""
+ },
+ {
+  "id": 10,
+  "q_en": "Every how many years are special municipality and county/city heads elected?",
+  "a_en": "4 years.",
+  "key": "4年",
+  "key_en": "4 years",
+  "tip": ""
+ },
+ {
+  "id": 11,
+  "q_en": "Is the county/city council a local legislative organ, or a local administrative organ?",
+  "a_en": "A local legislative organ.",
+  "key": "地方的立法機關",
+  "key_en": "Local legislative organ",
+  "tip": ""
+ },
+ {
+  "id": 12,
+  "q_en": "What is the national competent authority for immigration affairs?",
+  "a_en": "The National Immigration Agency (under the Ministry of the Interior).",
+  "key": "內政部移民署",
+  "key_en": "National Immigration Agency",
+  "tip": ""
+ },
+ {
+  "id": 13,
+  "q_en": "Does the ROC Constitution define the national flag's design as \"a red field with a blue sky and white sun in the upper-left corner\" (\"Blue Sky, White Sun, and a Wholly Red Earth\"), or as the \"Stars and Stripes\"?",
+  "a_en": "\"A red field with a blue sky and white sun in the upper-left corner\" (\"Blue Sky, White Sun, and a Wholly Red Earth\").",
+  "key": "青天白日滿地紅",
+  "key_en": "Blue Sky, White Sun, and a Wholly Red Earth",
+  "tip": ""
+ },
+ {
+  "id": 14,
+  "q_en": "Does respecting the national flag represent respecting the nation?",
+  "a_en": "Yes.",
+  "key": "是",
+  "key_en": "Yes",
+  "tip": ""
+ },
+ {
+  "id": 15,
+  "q_en": "Among the people's political participation rights, which 2 are votes on a \"person\"?",
+  "a_en": "The right to vote (election) and the right of recall.",
+  "key": "選舉權、罷免權",
+  "key_en": "Right to vote and right of recall",
+  "tip": ""
+ },
+ {
+  "id": 16,
+  "q_en": "What are the people's political participation rights? (One correct answer is enough)",
+  "a_en": "The right to vote, the right of recall, the right of initiative, and the right of referendum.",
+  "key": "選舉權",
+  "key_en": "Right to vote",
+  "tip": ""
+ },
+ {
+  "id": 17,
+  "q_en": "After naturalizing and registering household residence (receiving your National ID card), how long must you wait locally before you can vote for county/city mayor?",
+  "a_en": "4 months.",
+  "key": "4個月",
+  "key_en": "4 months",
+  "tip": ""
+ },
+ {
+  "id": 18,
+  "q_en": "According to the ROC Constitution, at what age do citizens gain the right to vote?",
+  "a_en": "20 years old.",
+  "key": "20歲",
+  "key_en": "20 years old",
+  "tip": "Don't confuse with Q26: civil adulthood (Civil Code) is 18."
+ },
+ {
+  "id": 19,
+  "q_en": "After naturalizing, how many years must you wait at minimum before you can register as a candidate for legislator?",
+  "a_en": "10 years.",
+  "key": "10年",
+  "key_en": "10 years",
+  "tip": ""
+ },
+ {
+  "id": 20,
+  "q_en": "After naturalizing, can you register as a candidate for President or Vice President?",
+  "a_en": "No.",
+  "key": "不可以",
+  "key_en": "No",
+  "tip": ""
+ },
+ {
+  "id": 21,
+  "q_en": "Which law is the nation's fundamental law?",
+  "a_en": "The Constitution.",
+  "key": "憲法",
+  "key_en": "The Constitution",
+  "tip": ""
+ },
+ {
+  "id": 22,
+  "q_en": "Who holds national sovereignty of the Republic of China?",
+  "a_en": "All citizens (the whole body of nationals).",
+  "key": "全體國民",
+  "key_en": "All citizens",
+  "tip": ""
+ },
+ {
+  "id": 23,
+  "q_en": "Citizens' basic rights are protected by which law?",
+  "a_en": "The Constitution.",
+  "key": "憲法",
+  "key_en": "The Constitution",
+  "tip": ""
+ },
+ {
+  "id": 24,
+  "q_en": "What are the main basic rights the Constitution grants to citizens that you know of? (One correct answer is enough)",
+  "a_en": "The right to equality, personal freedom, freedom of movement, freedom of speech, freedom of communication, freedom of religion, freedom of assembly and association, political participation rights, and the right to vote.",
+  "key": "平等權",
+  "key_en": "Right to equality",
+  "tip": ""
+ },
+ {
+  "id": 25,
+  "q_en": "Which law states that ROC citizens are equal before the law regardless of sex, religion, race, class, or party?",
+  "a_en": "The Constitution.",
+  "key": "憲法",
+  "key_en": "The Constitution",
+  "tip": ""
+ },
+ {
+  "id": 26,
+  "q_en": "According to the Civil Code, at what age does a person become a legal adult?",
+  "a_en": "18 years old.",
+  "key": "18歲",
+  "key_en": "18 years old",
+  "tip": "Don't confuse with Q18: voting age under the Constitution is 20."
+ },
+ {
+  "id": 27,
+  "q_en": "While a couple's marriage is ongoing, who is the legal representative for the rights and duties of their minor children?",
+  "a_en": "The parents.",
+  "key": "父母",
+  "key_en": "The parents",
+  "tip": ""
+ },
+ {
+  "id": 28,
+  "q_en": "For selling Schedule I narcotics (such as heroin, morphine, opium, cocaine, etc.), what is the maximum penalty?",
+  "a_en": "The death penalty.",
+  "key": "死刑",
+  "key_en": "Death penalty",
+  "tip": ""
+ },
+ {
+  "id": 29,
+  "q_en": "During an election, is it allowed to accept gifts or money given by a candidate?",
+  "a_en": "No.",
+  "key": "不可以",
+  "key_en": "No",
+  "tip": ""
+ },
+ {
+  "id": 30,
+  "q_en": "Under the Civil Code, do both daughters and sons have the right to inherit an estate?",
+  "a_en": "Yes.",
+  "key": "是",
+  "key_en": "Yes",
+  "tip": ""
+ },
+ {
+  "id": 31,
+  "q_en": "If you find property someone else has lost, where can you take it so the owner can claim it? (One correct answer is enough)",
+  "a_en": "(1) A police agency (police station/precinct). (2) A local self-government office (such as a village/borough warden's office, township/city office, or county/city government). (3) If found at an organization, school, group, or other public place, it may also be handed to that place's managing organization, group, its responsible person, or manager.",
+  "key": "警察機關",
+  "key_en": "A police agency",
+  "tip": ""
+ },
+ {
+  "id": 32,
+  "q_en": "For your own safety, are you allowed to privately possess firearms?",
+  "a_en": "No.",
+  "key": "不可以",
+  "key_en": "No",
+  "tip": ""
+ },
+ {
+  "id": 33,
+  "q_en": "If someone extorts or forcibly takes your property, which agency should you report it to?",
+  "a_en": "The police.",
+  "key": "警察機關",
+  "key_en": "The police",
+  "tip": ""
+ },
+ {
+  "id": 34,
+  "q_en": "Does our country's law prohibit hunting protected species such as the Formosan black bear, pangolin, and leopard cat?",
+  "a_en": "Yes.",
+  "key": "是",
+  "key_en": "Yes",
+  "tip": ""
+ },
+ {
+  "id": 35,
+  "q_en": "Under the Protection of Children and Youths Welfare and Rights Act, parents may not leave a child alone if the child is under what age?",
+  "a_en": "6 years old.",
+  "key": "6歲",
+  "key_en": "6 years old",
+  "tip": ""
+ },
+ {
+  "id": 36,
+  "q_en": "If you agree to carry an item across the border for someone else and it turns out to contain drugs, can you avoid punishment simply by claiming you didn't know its contents?",
+  "a_en": "No.",
+  "key": "不可以",
+  "key_en": "No",
+  "tip": ""
+ },
+ {
+  "id": 37,
+  "q_en": "Is it legal to smoke marijuana domestically?",
+  "a_en": "Not legal.",
+  "key": "不合法",
+  "key_en": "Not legal",
+  "tip": ""
+ },
+ {
+  "id": 38,
+  "q_en": "Is it legal to possess or sell marijuana, poppy, or coca seeds domestically?",
+  "a_en": "Not legal.",
+  "key": "不合法",
+  "key_en": "Not legal",
+  "tip": ""
+ },
+ {
+  "id": 39,
+  "q_en": "If, out of anger, you shout insults like \"idiot\" or other offensive words at someone on the street, could this constitute the crime of public insult?",
+  "a_en": "Yes.",
+  "key": "是",
+  "key_en": "Yes",
+  "tip": ""
+ },
+ {
+  "id": 40,
+  "q_en": "If a divorced husband keeps going to his ex-wife's home or workplace to cause disturbances, can the ex-wife apply to the court for a protective order?",
+  "a_en": "Yes, she can.",
+  "key": "可以",
+  "key_en": "Yes, she can",
+  "tip": ""
+ },
+ {
+  "id": 41,
+  "q_en": "To apply for a Republic of China entry visa, which agency should you apply to for issuance?",
+  "a_en": "An ROC overseas mission (embassy/consulate/representative office).",
+  "key": "中華民國駐外館處",
+  "key_en": "An ROC overseas mission",
+  "tip": ""
+ },
+ {
+  "id": 42,
+  "q_en": "A foreign passport must have at least how many months of remaining validity to apply for a visa to Taiwan?",
+  "a_en": "6 months or more.",
+  "key": "6個月以上",
+  "key_en": "6 months or more",
+  "tip": ""
+ },
+ {
+  "id": 43,
+  "q_en": "A foreign national who wants to stay in our country for more than 180 days must apply for which type of visa?",
+  "a_en": "A resident visa. (Reasons for residency include employment, investment, joining family, study, training, religious workers, foreign laborers, domestic helpers, caregivers, etc.)",
+  "key": "居留簽證",
+  "key_en": "Resident visa",
+  "tip": ""
+ },
+ {
+  "id": 44,
+  "q_en": "How can a foreigner apply for a Republic of China passport?",
+  "a_en": "After being approved by the Ministry of the Interior to naturalize as an ROC national.",
+  "key": "經內政部許可歸化中華民國國籍後",
+  "key_en": "After being approved to naturalize as an ROC national",
+  "tip": ""
+ },
+ {
+  "id": 45,
+  "q_en": "When a person under 18 applies for a passport, whose consent is required?",
+  "a_en": "The father, mother, or legal representative.",
+  "key": "父或母或法定代理人",
+  "key_en": "Father, mother, or legal representative",
+  "tip": ""
+ },
+ {
+  "id": 46,
+  "q_en": "When applying for a ROC passport for the first time, if you cannot apply in person at the Bureau of Consular Affairs or one of its branch offices, which agency should you first go to for identity verification?",
+  "a_en": "The Household Registration Office.",
+  "key": "戶政事務所",
+  "key_en": "Household Registration Office",
+  "tip": ""
+ },
+ {
+  "id": 47,
+  "q_en": "If you lose your Alien Resident Certificate or Permanent Resident Certificate, which agency should you apply to for a replacement?",
+  "a_en": "The National Immigration Agency service station at your place of residence.",
+  "key": "居留地之移民署服務站",
+  "key_en": "Immigration Agency service station at place of residence",
+  "tip": ""
+ },
+ {
+  "id": 48,
+  "q_en": "After entering with a resident visa, within how many days must a foreigner apply to which agency for an Alien Resident Certificate?",
+  "a_en": "Within 15 days, to the National Immigration Agency service station at their place of residence.",
+  "key": "居留地之移民署服務站",
+  "key_en": "Immigration Agency service station at place of residence",
+  "tip": "The question bundles two facts: apply within 15 days, at the local Immigration Agency service station."
+ },
+ {
+  "id": 49,
+  "q_en": "How long before it expires should a foreigner apply to extend their Alien Resident Certificate?",
+  "a_en": "Within 3 months (before expiry).",
+  "key": "3個月內",
+  "key_en": "Within 3 months",
+  "tip": ""
+ },
+ {
+  "id": 50,
+  "q_en": "If a foreigner's residential address in Taiwan changes, which agency should they register the change with?",
+  "a_en": "A National Immigration Agency service station.",
+  "key": "移民署各地服務站",
+  "key_en": "Immigration Agency service stations",
+  "tip": ""
+ },
+ {
+  "id": 51,
+  "q_en": "What penalties can a foreigner face for overstaying in Taiwan?",
+  "a_en": "A fine and deportation.",
+  "key": "罰錢及驅逐出國",
+  "key_en": "Fine and deportation",
+  "tip": ""
+ },
+ {
+  "id": 52,
+  "q_en": "If a foreigner staying in Taiwan loses their passport, which unit of the National Immigration Agency can they apply to for a loss report certificate, in order to apply for a new passport from their country's embassy/representative office in Taiwan? (One correct answer is enough)",
+  "a_en": "(1) The National Immigration Agency service station at their place of residence. (2) The Immigration Agency's Border Affairs Corps at the airport. (3) The Immigration Agency's Border Affairs Corps at the seaport.",
+  "key": "居留地之移民署服務站",
+  "key_en": "Immigration Agency service station at place of residence",
+  "tip": ""
+ },
+ {
+  "id": 53,
+  "q_en": "After entering Taiwan on a tourist visa, can a foreigner work here?",
+  "a_en": "No.",
+  "key": "不可以",
+  "key_en": "No",
+  "tip": ""
+ },
+ {
+  "id": 54,
+  "q_en": "If you want information about living in Taiwan (such as residency, work, education and culture, transportation, health insurance, welfare, etc.), which multilingual hotline can you call?",
+  "a_en": "The \"1990\" Consultation Service Hotline for Foreign Nationals Living in Taiwan.",
+  "key": "1990",
+  "key_en": "The \"1990\" hotline",
+  "tip": ""
+ },
+ {
+  "id": 55,
+  "q_en": "Why do you want to apply for naturalization as a Republic of China national?",
+  "a_en": "(Answer in your own words.)",
+  "key": "因為我想在臺灣長期生活，臺灣是我的家",
+  "key_en": "Because I want to live in Taiwan long-term. Taiwan is my home.",
+  "tip": "Personal question: there is no fixed answer. Swap in your own details, keep it to one or two simple sentences, and practice saying it smoothly.",
+  "own": true
+ },
+ {
+  "id": 56,
+  "q_en": "What is your original (birth) nationality?",
+  "a_en": "(State your own nationality.)",
+  "key": "阿根廷",
+  "key_en": "Argentina.",
+  "tip": "Personal question: there is no fixed answer. Swap in your own details, keep it to one or two simple sentences, and practice saying it smoothly.",
+  "own": true
+ },
+ {
+  "id": 57,
+  "q_en": "There are 3 situations in which applying for naturalization does not require giving up your original nationality. Besides having rendered outstanding service to our country, or being a high-level professional talent whose presence benefits the Republic of China, another situation is having a reason not attributable to the person themselves. True or false?",
+  "a_en": "True.",
+  "key": "對",
+  "key_en": "True",
+  "tip": ""
+ },
+ {
+  "id": 58,
+  "q_en": "Which agency should a foreigner first apply to for naturalization?",
+  "a_en": "The Household Registration Office of their place of residence.",
+  "key": "住所地的戶政事務所",
+  "key_en": "Household Registration Office of place of residence",
+  "tip": ""
+ },
+ {
+  "id": 59,
+  "q_en": "Can the foreign spouse or foreign adopted child of an ROC national automatically obtain our nationality without going through the naturalization application process?",
+  "a_en": "No.",
+  "key": "不可以",
+  "key_en": "No",
+  "tip": ""
+ },
+ {
+  "id": 60,
+  "q_en": "Who should file the application for naturalization?",
+  "a_en": "The applicant themselves; for a minor, their legal representative.",
+  "key": "本人",
+  "key_en": "The applicant themselves",
+  "tip": "If a minor, the legal representative files instead."
+ }
+]

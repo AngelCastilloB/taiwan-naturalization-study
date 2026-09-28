@@ -1,0 +1,484 @@
+[
+ {
+  "id": 121,
+  "q_en": "If an emergency or accident occurs in life and causes a family's finances to fall into hardship, which agency can you apply to for emergency relief assistance?",
+  "a_en": "The township (town/city/district) office.",
+  "key": "鄉（鎮、市、區）公所",
+  "key_en": "The township/city/district office",
+  "tip": ""
+ },
+ {
+  "id": 122,
+  "q_en": "If you have already joined Labor Insurance, can you also join the National Pension at the same time?",
+  "a_en": "No, you cannot.",
+  "key": "不可以",
+  "key_en": "No",
+  "tip": ""
+ },
+ {
+  "id": 123,
+  "q_en": "Which organization is the insured unit for Farmers' Health Insurance?",
+  "a_en": "The Farmers' Association.",
+  "key": "農會",
+  "key_en": "Farmers' Association",
+  "tip": ""
+ },
+ {
+  "id": 124,
+  "q_en": "When a person with disabilities joins social insurance (such as National Health Insurance), does the government subsidize part of the premium they must pay themselves?",
+  "a_en": "Yes.",
+  "key": "有",
+  "key_en": "Yes",
+  "tip": ""
+ },
+ {
+  "id": 125,
+  "q_en": "After a child completes birth registration or initial household registration in the Republic of China (Taiwan), which agency should be applied to for the childcare allowance?",
+  "a_en": "The township (town/city/district) office where the child's household registration is located.",
+  "key": "戶籍地的鄉（鎮、市、區）公所",
+  "key_en": "The township/city/district office of household registration",
+  "tip": ""
+ },
+ {
+  "id": 126,
+  "q_en": "Publications, computer software, and the internet must be rated by level; which rating level can children and teenagers watch/use?",
+  "a_en": "General audiences level (普遍級).",
+  "key": "普遍級",
+  "key_en": "General Audiences level",
+  "tip": ""
+ },
+ {
+  "id": 127,
+  "q_en": "By what age should a developmentally delayed child receive early intervention therapy so their development can be better improved?",
+  "a_en": "Before age 3.",
+  "key": "3歲",
+  "key_en": "Age 3",
+  "tip": ""
+ },
+ {
+  "id": 128,
+  "q_en": "How can it be discovered that a child may have a developmental delay, so they can receive early intervention sooner? (One correct answer is enough)",
+  "a_en": "(1) Child preventive health check-ups at hospitals or clinics. (2) Health check-ups at health centers and kindergartens. (3) Participating in screening activities held by government or private welfare organizations.",
+  "key": "衛生所及幼兒園健康檢查",
+  "key_en": "Health check-ups at health centers/kindergartens",
+  "tip": "Just name one channel: hospital check-up, health center/kindergarten check-up, or a screening event."
+ },
+ {
+  "id": 129,
+  "q_en": "If you discover a child or teenager being abused, what phone number can you call to help them?",
+  "a_en": "113.",
+  "key": "113",
+  "key_en": "113",
+  "tip": ""
+ },
+ {
+  "id": 130,
+  "q_en": "If you have already joined Farmers' Health Insurance, can you also join Labor Insurance during the farming off-season?",
+  "a_en": "Yes, but participation in Labor Insurance is limited to a cumulative total of 180 days per year.",
+  "key": "可以，但每年以180日為限",
+  "key_en": "Yes, but capped at 180 days a year",
+  "tip": ""
+ },
+ {
+  "id": 131,
+  "q_en": "When a domestic violence incident occurs, which agencies can help you apply to the court for a protection order? (One correct answer is enough)",
+  "a_en": "(1) The special municipality/county (city) government's Domestic Violence and Sexual Assault Prevention Center. (2) The special municipality/county (city) government's police department or police station.",
+  "key": "警察局、派出所",
+  "key_en": "The police department/station",
+  "tip": ""
+ },
+ {
+  "id": 132,
+  "q_en": "When a domestic violence incident occurs, what can you apply to the court for?",
+  "a_en": "A protection order.",
+  "key": "保護令",
+  "key_en": "A protection order",
+  "tip": ""
+ },
+ {
+  "id": 133,
+  "q_en": "When a domestic violence incident occurs, which agency can you apply to for a protection order?",
+  "a_en": "The court.",
+  "key": "法院",
+  "key_en": "The court",
+  "tip": ""
+ },
+ {
+  "id": 134,
+  "q_en": "If you experience domestic violence, what hotline offering multilingual services can you call?",
+  "a_en": "The \"113\" Women's and Children's Protection Hotline.",
+  "key": "113婦幼保護專線",
+  "key_en": "113 Women's and Children's Protection Hotline",
+  "tip": ""
+ },
+ {
+  "id": 135,
+  "q_en": "To apply for a land/building registration transcript or a land value transcript, which agency can you apply to?",
+  "a_en": "The Land Office.",
+  "key": "地政事務所",
+  "key_en": "The Land Office",
+  "tip": ""
+ },
+ {
+  "id": 136,
+  "q_en": "After signing a land sale contract, within how many months must you go to the Land Office to register the transfer of ownership, to avoid a late penalty?",
+  "a_en": "Within 1 month.",
+  "key": "1個月內",
+  "key_en": "Within 1 month",
+  "tip": ""
+ },
+ {
+  "id": 137,
+  "q_en": "After the deceased passes away, within how many months from the date of death must the heir go to the Land Office to register the inheritance, to avoid a late penalty?",
+  "a_en": "Within 6 months.",
+  "key": "6個月內",
+  "key_en": "Within 6 months",
+  "tip": ""
+ },
+ {
+  "id": 138,
+  "q_en": "For a foreign national who holds a residency document and is not employed, after how long of continuous residence in Taiwan must they join National Health Insurance?",
+  "a_en": "Starting from 6 months.",
+  "key": "6個月起",
+  "key_en": "From 6 months",
+  "tip": ""
+ },
+ {
+  "id": 139,
+  "q_en": "A foreign national who is unemployed and does not qualify to join National Health Insurance as a dependent — where can they go to enroll?",
+  "a_en": "The township/town/city/district office of their place of residence.",
+  "key": "居留地的鄉、鎮、市、區公所",
+  "key_en": "Local township/city/district office",
+  "tip": ""
+ },
+ {
+  "id": 140,
+  "q_en": "If a citizen meets the eligibility to join National Health Insurance, must they definitely join it?",
+  "a_en": "Yes.",
+  "key": "是",
+  "key_en": "Yes",
+  "tip": ""
+ },
+ {
+  "id": 141,
+  "q_en": "After joining National Health Insurance, if you receive emergency medical treatment abroad, can you submit documentation within 6 months from the date of treatment or discharge to apply to the National Health Insurance Administration (Ministry of Health and Welfare) for reimbursement of medical expenses after returning to Taiwan?",
+  "a_en": "Yes.",
+  "key": "可以",
+  "key_en": "Yes",
+  "tip": ""
+ },
+ {
+  "id": 142,
+  "q_en": "If you have a Catastrophic Illness Certificate Card under National Health Insurance, when seeking treatment for the illness listed on it, are you exempt from the co-payment for related treatment?",
+  "a_en": "Yes.",
+  "key": "是",
+  "key_en": "Yes",
+  "tip": ""
+ },
+ {
+  "id": 143,
+  "q_en": "When going to see a doctor at a medical facility, should you remember to bring your National Health Insurance card?",
+  "a_en": "Yes.",
+  "key": "是",
+  "key_en": "Yes",
+  "tip": ""
+ },
+ {
+  "id": 144,
+  "q_en": "When you are sick, should you first go to a clinic to be diagnosed by a doctor, and only be referred further to a large hospital if needed — is that correct?",
+  "a_en": "Correct.",
+  "key": "對",
+  "key_en": "Correct",
+  "tip": ""
+ },
+ {
+  "id": 145,
+  "q_en": "For questions about National Health Insurance, which agency should you ask?",
+  "a_en": "The National Health Insurance Administration, Ministry of Health and Welfare.",
+  "key": "中央健康保險署",
+  "key_en": "National Health Insurance Administration",
+  "tip": ""
+ },
+ {
+  "id": 146,
+  "q_en": "Which agency can provide various health services and consultations?",
+  "a_en": "The Health Center.",
+  "key": "衛生所",
+  "key_en": "The Health Center",
+  "tip": ""
+ },
+ {
+  "id": 147,
+  "q_en": "Where can young children go to receive government-provided vaccines (immunizations) or physical check-ups?",
+  "a_en": "Health centers nationwide, or hospitals/clinics contracted to provide vaccinations.",
+  "key": "各地衛生所",
+  "key_en": "Local health centers",
+  "tip": ""
+ },
+ {
+  "id": 148,
+  "q_en": "What is the best way to prevent enterovirus?",
+  "a_en": "Wash your hands often.",
+  "key": "常洗手",
+  "key_en": "Wash hands often",
+  "tip": ""
+ },
+ {
+  "id": 149,
+  "q_en": "People under what age are not allowed to buy cigarettes or alcohol at a store?",
+  "a_en": "18 years old.",
+  "key": "18歲",
+  "key_en": "18 years old",
+  "tip": ""
+ },
+ {
+  "id": 150,
+  "q_en": "Do you currently have a job? Do you like your job?",
+  "a_en": "(Answer freely, based on your own situation.)",
+  "key": "有，我在一家公司工作，我很喜歡我的工作",
+  "key_en": "Yes, I work at a company, and I like my job a lot.",
+  "tip": "Personal question: there is no fixed answer. Swap in your own details, keep it to one or two simple sentences, and practice saying it smoothly.",
+  "own": true
+ },
+ {
+  "id": 151,
+  "q_en": "A foreign spouse who holds an Alien Resident Certificate or Alien Permanent Resident Certificate — if they want to work, do they need to apply for a work permit?",
+  "a_en": "No, they do not need to.",
+  "key": "不需要",
+  "key_en": "No, not needed",
+  "tip": ""
+ },
+ {
+  "id": 152,
+  "q_en": "If a foreign spouse is looking for work and an employer refuses to hire them because they lack a National ID card, which agencies can they turn to for help? (One correct answer is enough)",
+  "a_en": "(1) A public employment center or employment service station. (2) The special municipality/county (city) government's Labor Affairs Bureau or Social Affairs Bureau (Department), or other labor authority. (3) Taiwan Employment Service (台灣就業通, a government job-search website).",
+  "key": "台灣就業通",
+  "key_en": "Taiwan Employment Service (website)",
+  "tip": ""
+ },
+ {
+  "id": 153,
+  "q_en": "What methods can a foreign spouse use to find a job? (One correct answer is enough)",
+  "a_en": "(1) Ask at a public employment center or employment service station. (2) Call the job-seeking hotline: 0800-777-888.",
+  "key": "撥打0800-777-888",
+  "key_en": "Call 0800-777-888",
+  "tip": ""
+ },
+ {
+  "id": 154,
+  "q_en": "When a foreign spouse has difficulty finding a job, what kind of assistance can they seek? (One correct answer is enough)",
+  "a_en": "(1) Employment counseling provided by public employment centers or employment service stations. (2) Employment-promotion workshops provided by public employment centers or employment service stations.",
+  "key": "就業中心提供就業諮詢",
+  "key_en": "Job counseling at public employment centers",
+  "tip": ""
+ },
+ {
+  "id": 155,
+  "q_en": "When an employer hires a foreign national, can they collect a deposit or withhold their documents?",
+  "a_en": "No, they cannot.",
+  "key": "不可以",
+  "key_en": "No",
+  "tip": ""
+ },
+ {
+  "id": 156,
+  "q_en": "When a company hires foreign nationals or a citizen's foreign spouse, should it enroll them in Labor Insurance, Labor Occupational Accident Insurance, and National Health Insurance?",
+  "a_en": "Yes.",
+  "key": "是",
+  "key_en": "Yes",
+  "tip": ""
+ },
+ {
+  "id": 157,
+  "q_en": "What is the complaint channel for a worker who is defrauded while job hunting?",
+  "a_en": "File a complaint with the special municipality/county (city) government's Labor Affairs Bureau or Social Affairs Bureau (Department), or other labor administrative authority.",
+  "key": "向勞工局或社會局申訴",
+  "key_en": "File a complaint with the Labor Affairs Bureau",
+  "tip": ""
+ },
+ {
+  "id": 158,
+  "q_en": "To improve job skills, which agencies can a worker attend for vocational training? (One correct answer is enough)",
+  "a_en": "(1) A branch office of the Workforce Development Agency. (2) The special municipality/county (city) government's Labor Affairs Bureau or Social Affairs Bureau (Department), or other labor authority.",
+  "key": "勞動力發展署",
+  "key_en": "Workforce Development Agency",
+  "tip": ""
+ },
+ {
+  "id": 159,
+  "q_en": "When an oral or written employment contract between a worker and employer needs to be changed, whose consent is required?",
+  "a_en": "Both the worker and the employer.",
+  "key": "勞雇雙方",
+  "key_en": "Both the worker and employer",
+  "tip": ""
+ },
+ {
+  "id": 160,
+  "q_en": "If there is a dispute between a worker and an employer, which agency can be asked to help mediate?",
+  "a_en": "The Labor Affairs Bureau or Social Affairs Bureau (Department), or other labor authority, of the special municipality/county (city) government where the work is performed.",
+  "key": "勞工局或社會局",
+  "key_en": "The Labor Affairs Bureau",
+  "tip": ""
+ },
+ {
+  "id": 161,
+  "q_en": "In a workplace covered by the Labor Standards Act, what minimum percentage of a worker's monthly wages must the employer contribute toward their pension?",
+  "a_en": "6%.",
+  "key": "6%",
+  "key_en": "6%",
+  "tip": ""
+ },
+ {
+  "id": 162,
+  "q_en": "Is there a legally set minimum amount for the basic wage of workers currently covered by the Labor Standards Act in Taiwan?",
+  "a_en": "Yes.",
+  "key": "是",
+  "key_en": "Yes",
+  "tip": ""
+ },
+ {
+  "id": 163,
+  "q_en": "If an employer discriminates against a job applicant or an employee, where can a complaint be filed?",
+  "a_en": "The labor administrative authority where the business is located (the special municipality/county (city) government's Labor Affairs Bureau or Social Affairs Bureau (Department)).",
+  "key": "勞工局或社會局",
+  "key_en": "The Labor Affairs Bureau",
+  "tip": ""
+ },
+ {
+  "id": 164,
+  "q_en": "If you want to find a job or receive vocational training, which agency can you ask for related information?",
+  "a_en": "The Workforce Development Agency, or the Labor Affairs Bureau or Social Affairs Bureau (Department) of the special municipality/county (city) government.",
+  "key": "勞動力發展署",
+  "key_en": "Workforce Development Agency",
+  "tip": ""
+ },
+ {
+  "id": 165,
+  "q_en": "Which agency can provide free job-registration and employment-counseling services to citizens? (One correct answer is enough)",
+  "a_en": "(1) A public employment center, employment service station, or employment service counter. (2) An employment service counter set up by the Labor Affairs Bureau or Social Affairs Bureau (Department) of the special municipality/county (city) government.",
+  "key": "公立就業中心",
+  "key_en": "Public employment center",
+  "tip": ""
+ },
+ {
+  "id": 166,
+  "q_en": "If you need consultation about labor laws, or want to file a complaint about a labor dispute, what phone number can you call?",
+  "a_en": "1955.",
+  "key": "1955",
+  "key_en": "1955",
+  "tip": ""
+ },
+ {
+  "id": 167,
+  "q_en": "Do you know how to drive a car or ride a scooter/motorcycle? Do you have a driver's license?",
+  "a_en": "(Answer freely, based on your own situation.)",
+  "key": "我會開車，也有駕照",
+  "key_en": "I can drive, and I have a driver's license.",
+  "tip": "Personal question: there is no fixed answer. Swap in your own details, keep it to one or two simple sentences, and practice saying it smoothly.",
+  "own": true
+ },
+ {
+  "id": 168,
+  "q_en": "If the scooter's front-seat driver or the passenger riding on the back seat is not wearing a helmet, how much will the driver be fined?",
+  "a_en": "NT$500.",
+  "key": "500元",
+  "key_en": "NT$500",
+  "tip": ""
+ },
+ {
+  "id": 169,
+  "q_en": "According to regulations, which vehicles are required to carry Compulsory Automobile Liability Insurance? (One correct answer is enough)",
+  "a_en": "(1) Bicycles. (2) Micro electric two-wheeled vehicles, scooters/motorcycles, and cars. (3) All of the above.",
+  "key": "機車及汽車",
+  "key_en": "Scooters and cars",
+  "tip": "The official list also includes bicycles and \"all of the above\". Scooters and cars is the answer that is clearly true in real life."
+ },
+ {
+  "id": 170,
+  "q_en": "To apply for a regular (private) small car driver's license, or a light or regular heavy motorcycle license, what is the minimum required age?",
+  "a_en": "18 years old.",
+  "key": "18歲",
+  "key_en": "18 years old",
+  "tip": ""
+ },
+ {
+  "id": 171,
+  "q_en": "If someone has another person take the driving test for them, besides having their test qualification cancelled, for how many years are they barred from applying for a driver's license again?",
+  "a_en": "5 years.",
+  "key": "5年",
+  "key_en": "5 years",
+  "tip": ""
+ },
+ {
+  "id": 172,
+  "q_en": "When a car is driven on the road, if the driver, front-seat passenger, or rear-seat passenger of a small car fails to wear a seatbelt as required, will the driver be penalized?",
+  "a_en": "Yes.",
+  "key": "會",
+  "key_en": "Yes",
+  "tip": ""
+ },
+ {
+  "id": 173,
+  "q_en": "When slow vehicles and large vehicles drive on the freeway, which lane should they use?",
+  "a_en": "The outer (rightmost) lane.",
+  "key": "外側車道",
+  "key_en": "The outer lane",
+  "tip": "In Taiwan traffic keeps right, so the 'outer' lane is the rightmost, slower lane."
+ },
+ {
+  "id": 174,
+  "q_en": "Is it allowed to use the road shoulder to overtake other vehicles?",
+  "a_en": "No.",
+  "key": "不可以",
+  "key_en": "No",
+  "tip": ""
+ },
+ {
+  "id": 175,
+  "q_en": "When the traffic light is red, can you run the red light and cross the street just because no cars are coming?",
+  "a_en": "No.",
+  "key": "不可以",
+  "key_en": "No",
+  "tip": ""
+ },
+ {
+  "id": 176,
+  "q_en": "When taking a flight, can you carry a nail clipper or a Swiss Army knife in your carry-on?",
+  "a_en": "No.",
+  "key": "不可以",
+  "key_en": "No",
+  "tip": ""
+ },
+ {
+  "id": 177,
+  "q_en": "When taking a domestic flight in Taiwan, must you go through a security check?",
+  "a_en": "Yes.",
+  "key": "是",
+  "key_en": "Yes",
+  "tip": ""
+ },
+ {
+  "id": 178,
+  "q_en": "When taking a domestic flight in Taiwan, can you use a mobile phone during the flight?",
+  "a_en": "No.",
+  "key": "不可以",
+  "key_en": "No",
+  "tip": ""
+ },
+ {
+  "id": 179,
+  "q_en": "Can the emergency exit door on an airplane be opened freely?",
+  "a_en": "No.",
+  "key": "不可以",
+  "key_en": "No",
+  "tip": ""
+ },
+ {
+  "id": 180,
+  "q_en": "The airplane cockpit seems interesting — can I ask the captain or a flight attendant to let me go in and take a look?",
+  "a_en": "No.",
+  "key": "不可以",
+  "key_en": "No",
+  "tip": ""
+ }
+]

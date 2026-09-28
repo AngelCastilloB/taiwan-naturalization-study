@@ -1,0 +1,482 @@
+[
+ {
+  "id": 61,
+  "q_en": "When applying for naturalization, must you apply in person, or can you have a good friend apply on your behalf?",
+  "a_en": "Apply in person.",
+  "key": "親自申請",
+  "key_en": "Apply in person",
+  "tip": ""
+ },
+ {
+  "id": 62,
+  "q_en": "Which agency's approval must a naturalization application receive before it takes effect?",
+  "a_en": "The Ministry of the Interior.",
+  "key": "內政部",
+  "key_en": "Ministry of the Interior",
+  "tip": ""
+ },
+ {
+  "id": 63,
+  "q_en": "A foreign spouse of an ROC national, or an adopted child with legal capacity, may apply for naturalization after how many consecutive years of legal residence in Taiwan, with at least 183 days of actual residence each year?",
+  "a_en": "3 years.",
+  "key": "3年",
+  "key_en": "3 years",
+  "tip": ""
+ },
+ {
+  "id": 64,
+  "q_en": "Can the unmarried minor children of a naturalization applicant apply to be naturalized together with the applicant?",
+  "a_en": "Yes, they can.",
+  "key": "可以",
+  "key_en": "Yes",
+  "tip": ""
+ },
+ {
+  "id": 65,
+  "q_en": "After being naturalized as an ROC national, can you immediately go to the Household Registration Office to apply for a National ID card?",
+  "a_en": "No. (You must first apply to the National Immigration Agency, under the Immigration Act and related rules, for residence and settlement in Taiwan. Only after being approved for a Taiwan Area Settlement Certificate can you register your initial household registration at the Household Registration Office and apply for the National ID card at the same time.)",
+  "key": "不可以",
+  "key_en": "No",
+  "tip": "Order is: residence -> settlement certificate -> household registration -> ID card."
+ },
+ {
+  "id": 66,
+  "q_en": "When applying for naturalization, if your Alien Resident Certificate is about to expire, do you need to apply to the National Immigration Agency for an extension?",
+  "a_en": "Yes, it is required.",
+  "key": "要",
+  "key_en": "Yes, required",
+  "tip": ""
+ },
+ {
+  "id": 67,
+  "q_en": "After naturalizing and receiving a Taiwan Area Resident Certificate, must you still reside in Taiwan for a certain period before you can apply to the National Immigration Agency for a Taiwan Area Settlement Certificate, and then apply at the Household Registration Office for initial household registration and a National ID card?",
+  "a_en": "Yes.",
+  "key": "是",
+  "key_en": "Yes",
+  "tip": ""
+ },
+ {
+  "id": 68,
+  "q_en": "When a foreign spouse applies for naturalization, must the applicant apply in person?",
+  "a_en": "Yes.",
+  "key": "是",
+  "key_en": "Yes",
+  "tip": ""
+ },
+ {
+  "id": 69,
+  "q_en": "When a foreign spouse applies for naturalization, must they first obtain their ROC-national spouse's consent?",
+  "a_en": "No, consent is not required first.",
+  "key": "不須先經同意",
+  "key_en": "Consent not required first",
+  "tip": ""
+ },
+ {
+  "id": 70,
+  "q_en": "After naturalization, which agency should you apply to next for a Taiwan Area Resident Certificate to reside in Taiwan, in preparation for later settlement and household registration?",
+  "a_en": "The National Immigration Agency service station in your place of residence.",
+  "key": "居留地之移民署服務站",
+  "key_en": "Immigration Agency office of residence",
+  "tip": ""
+ },
+ {
+  "id": 71,
+  "q_en": "When completing ROC naturalization, can you apply for a Chinese-English bilingual version of the Naturalization Approval Certificate?",
+  "a_en": "Yes, you can.",
+  "key": "可以",
+  "key_en": "Yes",
+  "tip": ""
+ },
+ {
+  "id": 72,
+  "q_en": "What is the certificate fee for ROC naturalization, in New Taiwan Dollars?",
+  "a_en": "NT$1,200.",
+  "key": "1,200元",
+  "key_en": "NT$1,200",
+  "tip": ""
+ },
+ {
+  "id": 73,
+  "q_en": "After a foreigner is approved for naturalization, must they submit proof of loss of their original nationality within 1 year, except where their home country's laws require reaching a certain age before nationality can be lost?",
+  "a_en": "Yes.",
+  "key": "是",
+  "key_en": "Yes",
+  "tip": ""
+ },
+ {
+  "id": 74,
+  "q_en": "If a naturalized foreigner cannot submit proof of loss of original nationality within 1 year and does not apply for an extension, will their naturalization approval be revoked?",
+  "a_en": "Yes, it will.",
+  "key": "會",
+  "key_en": "Yes, it will",
+  "tip": ""
+ },
+ {
+  "id": 75,
+  "q_en": "If someone receives a deferred prosecution, detention, fine, or a finalized suspended sentence for a crime (other than a negligent offense), will this be considered poor conduct?",
+  "a_en": "Yes, it will.",
+  "key": "會",
+  "key_en": "Yes, it will",
+  "tip": ""
+ },
+ {
+  "id": 76,
+  "q_en": "If a naturalized foreigner cannot submit proof of loss of original nationality within 1 year, must they apply for an extension at least 30 days before the deadline, at the Household Registration Office for the address on their Taiwan Area Resident Certificate or where they originally applied for naturalization?",
+  "a_en": "Yes.",
+  "key": "是",
+  "key_en": "Yes",
+  "tip": ""
+ },
+ {
+  "id": 77,
+  "q_en": "As the spouse of an ROC national applying for naturalization, do you need to submit proof of sufficient assets or professional skills?",
+  "a_en": "No, this is not required.",
+  "key": "不需要",
+  "key_en": "Not required",
+  "tip": ""
+ },
+ {
+  "id": 78,
+  "q_en": "When applying for naturalization at the Household Registration Office, where should you first go to buy a money order?",
+  "a_en": "The post office.",
+  "key": "郵局",
+  "key_en": "Post office",
+  "tip": ""
+ },
+ {
+  "id": 79,
+  "q_en": "At what age must a citizen apply for a National ID card?",
+  "a_en": "14 years old.",
+  "key": "14歲",
+  "key_en": "14 years old",
+  "tip": ""
+ },
+ {
+  "id": 80,
+  "q_en": "Which agency do you apply to for a National ID card?",
+  "a_en": "The Household Registration Office.",
+  "key": "戶政事務所",
+  "key_en": "Household Registration Office",
+  "tip": ""
+ },
+ {
+  "id": 81,
+  "q_en": "When handling household registration, if the information printed on your National ID card changes, must you apply to replace the ID card at the same time?",
+  "a_en": "Yes.",
+  "key": "是",
+  "key_en": "Yes",
+  "tip": ""
+ },
+ {
+  "id": 82,
+  "q_en": "After naturalizing, being approved for settlement in Taiwan, and applying for initial household registration at the Household Registration Office, can you also apply for your first National ID card that same day?",
+  "a_en": "Yes.",
+  "key": "是",
+  "key_en": "Yes",
+  "tip": ""
+ },
+ {
+  "id": 83,
+  "q_en": "After naturalizing and receiving the Taiwan Area Settlement Certificate, within how many days must you register your initial household registration at the Household Registration Office?",
+  "a_en": "30 days.",
+  "key": "30天",
+  "key_en": "30 days",
+  "tip": ""
+ },
+ {
+  "id": 84,
+  "q_en": "In cases of death, divorce by judgment, divorce by mediation, acknowledgment (of a child), adoption, or guardianship, within how many days must registration be made at the Household Registration Office?",
+  "a_en": "30 days.",
+  "key": "30天",
+  "key_en": "30 days",
+  "tip": ""
+ },
+ {
+  "id": 85,
+  "q_en": "When a foreigner marries an ROC national and registers the marriage, must they adopt a Chinese surname that follows ROC naming customs?",
+  "a_en": "Yes.",
+  "key": "是",
+  "key_en": "Yes",
+  "tip": ""
+ },
+ {
+  "id": 86,
+  "q_en": "After your initial household registration, can your spouse or someone you have authorized apply for a copy of your household registration transcript at the Household Registration Office?",
+  "a_en": "Yes, they can.",
+  "key": "可以",
+  "key_en": "Yes",
+  "tip": ""
+ },
+ {
+  "id": 87,
+  "q_en": "When a couple divorces by mutual agreement, how is custody (the exercise of rights and duties) over minor children decided?",
+  "a_en": "It is decided by a written agreement between both spouses.",
+  "key": "雙方書面協議約定",
+  "key_en": "By written agreement of both",
+  "tip": ""
+ },
+ {
+  "id": 88,
+  "q_en": "When adopting someone else's child, or your spouse's child, must you petition the court for a ruling of approval before it takes effect?",
+  "a_en": "Yes.",
+  "key": "是",
+  "key_en": "Yes",
+  "tip": ""
+ },
+ {
+  "id": 89,
+  "q_en": "Which agency do you apply to for a household registration transcript?",
+  "a_en": "The Household Registration Office.",
+  "key": "戶政事務所",
+  "key_en": "Household Registration Office",
+  "tip": ""
+ },
+ {
+  "id": 90,
+  "q_en": "After a child is born, within how many days at the latest must the birth be registered at the Household Registration Office to avoid a penalty?",
+  "a_en": "60 days.",
+  "key": "60天",
+  "key_en": "60 days",
+  "tip": ""
+ },
+ {
+  "id": 91,
+  "q_en": "When registering a birth, how is the newborn's surname decided?",
+  "a_en": "The parents decide in writing whether the child takes the father's or the mother's surname. If there is no agreement, or agreement cannot be reached, it is decided by drawing lots at the Household Registration Office.",
+  "key": "父母書面約定，未約定則抽籤",
+  "key_en": "Parents agree in writing; else drawn by lot",
+  "tip": ""
+ },
+ {
+  "id": 92,
+  "q_en": "For marriage or divorce by mutual agreement, must both parties personally go together to the Household Registration Office to register the marriage or divorce?",
+  "a_en": "Yes.",
+  "key": "是",
+  "key_en": "Yes",
+  "tip": ""
+ },
+ {
+  "id": 93,
+  "q_en": "Is it permissible to forge or alter a National ID card, or to hand your ID card to someone else to use as their own identity?",
+  "a_en": "No, it is not permissible.",
+  "key": "不可以",
+  "key_en": "No",
+  "tip": ""
+ },
+ {
+  "id": 94,
+  "q_en": "Under the ROC Civil Code, must a marriage be registered at the Household Registration Office to be legally valid?",
+  "a_en": "Yes.",
+  "key": "是",
+  "key_en": "Yes",
+  "tip": ""
+ },
+ {
+  "id": 95,
+  "q_en": "If you lose your National ID card, which agency do you apply to for a replacement?",
+  "a_en": "The Household Registration Office.",
+  "key": "戶政事務所",
+  "key_en": "Household Registration Office",
+  "tip": ""
+ },
+ {
+  "id": 96,
+  "q_en": "If an adult loses their National ID card, who must apply for the replacement?",
+  "a_en": "The person must apply for it in person.",
+  "key": "本人親自補領",
+  "key_en": "In person, by the individual",
+  "tip": ""
+ },
+ {
+  "id": 97,
+  "q_en": "What is the phone number for the Ministry of the Interior's service hotline?",
+  "a_en": "1996.",
+  "key": "1996",
+  "key_en": "1996",
+  "tip": ""
+ },
+ {
+  "id": 98,
+  "q_en": "If you lose your National ID card and want to report it lost, which service phone number can you call? What is the hotline number?",
+  "a_en": "The \"1996\" Ministry of the Interior service hotline.",
+  "key": "1996",
+  "key_en": "1996",
+  "tip": ""
+ },
+ {
+  "id": 99,
+  "q_en": "Compulsory national education applies to citizens from what age to what age?",
+  "a_en": "From age 6 to age 15.",
+  "key": "6歲到15歲",
+  "key_en": "Age 6 to 15",
+  "tip": ""
+ },
+ {
+  "id": 100,
+  "q_en": "How many years total is compulsory national education?",
+  "a_en": "9 years.",
+  "key": "9年",
+  "key_en": "9 years",
+  "tip": ""
+ },
+ {
+  "id": 101,
+  "q_en": "At what age must a citizen enroll in elementary school?",
+  "a_en": "Age 6.",
+  "key": "滿6歲",
+  "key_en": "Age 6",
+  "tip": ""
+ },
+ {
+  "id": 102,
+  "q_en": "Where can people who missed formal schooling or never finished school register to attend classes?",
+  "a_en": "Supplementary schools attached to elementary schools (age 12 and above) or supplementary schools attached to junior high schools (age 15 and above), for those who already have an elementary-school education, or who have passed a self-study proficiency exam, or who hold an equivalent qualification.",
+  "key": "國小或國中附設補習學校",
+  "key_en": "Supplementary schools at elem./jr. high",
+  "tip": ""
+ },
+ {
+  "id": 103,
+  "q_en": "Is paying taxes a duty that citizens must fulfill?",
+  "a_en": "Yes.",
+  "key": "是",
+  "key_en": "Yes",
+  "tip": ""
+ },
+ {
+  "id": 104,
+  "q_en": "If you have personal income from work, when paying tax should you pay \"Individual Income Tax\" or \"Profit-Seeking Enterprise Income Tax\"?",
+  "a_en": "Individual (Consolidated) Income Tax.",
+  "key": "綜合所得稅",
+  "key_en": "Individual Income Tax",
+  "tip": ""
+ },
+ {
+  "id": 105,
+  "q_en": "When is the period for filing the annual individual income tax return?",
+  "a_en": "From May 1 to May 31 of the following year.",
+  "key": "次年5月1日至5月31日",
+  "key_en": "May 1-31 of next year",
+  "tip": ""
+ },
+ {
+  "id": 106,
+  "q_en": "What are the ways you can file your individual income tax return? (One correct answer is enough)",
+  "a_en": "(1) File in person at the branch office or tax collection office of the National Taxation Bureau in your household-registration area. (2) File by mail. (3) File online.",
+  "key": "郵寄申報",
+  "key_en": "File by mail",
+  "tip": "Easiest to say: mail filing."
+ },
+ {
+  "id": 107,
+  "q_en": "To help prevent shops from evading taxes, what should you remember to ask the shop for when you buy something?",
+  "a_en": "A uniform invoice (official receipt).",
+  "key": "統一發票",
+  "key_en": "Uniform invoice (receipt)",
+  "tip": ""
+ },
+ {
+  "id": 108,
+  "q_en": "Rent paid to your landlord can be declared as a deduction under which tax?",
+  "a_en": "Individual (Consolidated) Income Tax.",
+  "key": "綜合所得稅",
+  "key_en": "Individual Income Tax",
+  "tip": ""
+ },
+ {
+  "id": 109,
+  "q_en": "For money you earn running a shop or business, when you settle accounts and file each year, should you pay \"Profit-Seeking Enterprise Income Tax\" or \"Stamp Tax\"?",
+  "a_en": "Profit-Seeking Enterprise Income Tax.",
+  "key": "營利事業所得稅",
+  "key_en": "Business Income Tax",
+  "tip": ""
+ },
+ {
+  "id": 110,
+  "q_en": "A gift of property to parents, children, siblings, or a spouse - a gift to which of these is exempt from gift tax no matter the amount?",
+  "a_en": "Spouse.",
+  "key": "配偶",
+  "key_en": "Spouse",
+  "tip": ""
+ },
+ {
+  "id": 111,
+  "q_en": "When a foreigner opens a deposit account at a bank in Taiwan, do they need one form of ID or two?",
+  "a_en": "Two forms of ID. (Holders of a Resident Certificate must also present another identifying document, such as a National Health Insurance card, passport, driver's license, or student ID; those without a Resident Certificate must present a passport with a valid entry visa/stamp and the ROC Uniform ID Number Basic Data Form.)",
+  "key": "雙證件",
+  "key_en": "Two forms of ID",
+  "tip": ""
+ },
+ {
+  "id": 112,
+  "q_en": "Does a man under 36 who naturalizes as an ROC national have an obligation to perform military service?",
+  "a_en": "Yes.",
+  "key": "是",
+  "key_en": "Yes",
+  "tip": ""
+ },
+ {
+  "id": 113,
+  "q_en": "For a naturalized man of conscription age (19 to 36), how many years after the day following his initial household registration must he perform military service?",
+  "a_en": "1 year.",
+  "key": "1年",
+  "key_en": "1 year",
+  "tip": ""
+ },
+ {
+  "id": 114,
+  "q_en": "Do women in Taiwan have an obligation to perform military service?",
+  "a_en": "No, they do not.",
+  "key": "沒有",
+  "key_en": "No",
+  "tip": ""
+ },
+ {
+  "id": 115,
+  "q_en": "For a naturalized man of conscription age, from the day after his initial household registration until the 1-year mark, if he needs to leave the country he must apply for approval from the National Immigration Agency - true or false?",
+  "a_en": "True.",
+  "key": "對",
+  "key_en": "True",
+  "tip": ""
+ },
+ {
+  "id": 116,
+  "q_en": "National Pension Insurance covers ROC nationals who have household registration in Taiwan - what is the age range?",
+  "a_en": "25 to 65 years old.",
+  "key": "25歲~65歲",
+  "key_en": "25 to 65",
+  "tip": ""
+ },
+ {
+  "id": 117,
+  "q_en": "Which agency administers National Pension Insurance?",
+  "a_en": "The Bureau of Labor Insurance, Ministry of Labor.",
+  "key": "勞動部勞工保險局",
+  "key_en": "Bureau of Labor Insurance",
+  "tip": ""
+ },
+ {
+  "id": 118,
+  "q_en": "If a family member unfortunately dies due to a typhoon, flood, or landslide disaster, which agency do you apply to for disaster relief?",
+  "a_en": "The township/city/district office where the disaster occurred.",
+  "key": "災害發生地公所",
+  "key_en": "Local township/district office",
+  "tip": ""
+ },
+ {
+  "id": 119,
+  "q_en": "Which agency can a low-income household apply to for living assistance?",
+  "a_en": "The township/city/district office where the household is registered.",
+  "key": "戶籍地公所",
+  "key_en": "Local township/district office",
+  "tip": ""
+ },
+ {
+  "id": 120,
+  "q_en": "Which agency can you apply to for determination of low-income household status?",
+  "a_en": "The township/city/district office where the household is registered.",
+  "key": "戶籍地公所",
+  "key_en": "Local township/district office",
+  "tip": ""
+ }
+]
