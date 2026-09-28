@@ -64,7 +64,7 @@ const levelSub = l => (CAT_EN[l.cat] || '') + (l.kind === 'v' ? ' · words' : ' 
 /* ---------- state ---------- */
 const defaults = () => ({
   v: 2, items: {}, days: {}, exams: [],
-  settings: {goal: 1500, rate: 0.85, pinyin: true, english: true, autoplay: true, commutePause: 5, commuteEnglish: false},
+  settings: {goal: 1500, rate: 1, pinyin: true, english: true, autoplay: true, commutePause: 5, commuteEnglish: false},
 });
 let S = defaults();
 try {
@@ -98,6 +98,15 @@ function pickVoices() {
   zhVoice = vs.find(v => /zh[-_]TW/i.test(v.lang)) || vs.find(v => /zh[-_](Hant|HK)/i.test(v.lang)) || vs.find(v => /^(zh|cmn)/i.test(v.lang)) || null;
   enVoice = vs.find(v => /^en[-_]US/i.test(v.lang)) || vs.find(v => /^en/i.test(v.lang)) || null;
 }
+// a tiny silent WAV, played from the first tap so iOS lets later clips start from timers
+const SILENCE = 'data:audio/wav;base64,UklGRiQAAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YQAAAAA=';
+let playerUnlocked = false;
+function unlockPlayer() {
+  if (playerUnlocked) return;
+  playerUnlocked = true;
+  try { player.src = SILENCE; const p = player.play(); if (p && p.catch) p.catch(() => {}); } catch (e) {}
+}
+if (!window.speechSynthesis) document.addEventListener('pointerdown', unlockPlayer, {once: true, capture: true});
 if (window.speechSynthesis) {
   pickVoices();
   speechSynthesis.addEventListener?.('voiceschanged', pickVoices);
@@ -106,12 +115,35 @@ if (window.speechSynthesis) {
     if (speechUnlocked) return;
     speechUnlocked = true;
     try { const u = new SpeechSynthesisUtterance(' '); u.volume = 0; speechSynthesis.speak(u); } catch (e) {}
+    unlockPlayer();
   };
   document.addEventListener('pointerdown', unlock, {once: true, capture: true});
   document.addEventListener('keydown', unlock, {once: true, capture: true});
 }
 const spoken = t => t.replace(/（答對\s*1\s*個即可）/g, '，答對一個即可').replace(/[（(]\d[)）]/g, '');
+// Recorded clips (Sources/audio) play even when an iPhone is in Silent mode; the browser voice is the fallback.
+const AUDIO = D.audio || {};
+const player = new Audio();
+player.preload = 'auto';
+let playerToken = 0;
+function playClip(file, text, lang, onend) {
+  const token = ++playerToken;
+  let done = false;
+  const fin = () => { if (!done && token === playerToken) { done = true; onend && onend(); } };
+  player.onended = fin;
+  player.onerror = () => { if (token === playerToken && !done) { done = true; speakVoice(text, {lang, onend}); } };
+  player.src = 'audio/' + file;
+  player.defaultPlaybackRate = player.playbackRate = lang === 'zh' ? S.settings.rate : 1;
+  const p = player.play();
+  if (p && p.catch) p.catch(err => { if (token === playerToken && !done && err && err.name !== 'AbortError') { done = true; speakVoice(text, {lang, onend}); } });
+}
 function speak(text, {lang = 'zh', onend} = {}) {
+  stopSpeech();
+  const file = AUDIO[lang + ':' + text];
+  if (file) playClip(file, text, lang, onend);
+  else speakVoice(text, {lang, onend});
+}
+function speakVoice(text, {lang = 'zh', onend} = {}) {
   if (!window.speechSynthesis) { onend && setTimeout(onend, 1200); return; }
   const synth = speechSynthesis;
   if (!zhVoice || !voiceCount) pickVoices();
@@ -121,7 +153,7 @@ function speak(text, {lang = 'zh', onend} = {}) {
   const v = lang === 'zh' ? zhVoice : enVoice;
   u.lang = v ? v.lang : (lang === 'zh' ? 'zh-TW' : 'en-US');
   if (v) u.voice = v;
-  u.rate = lang === 'zh' ? S.settings.rate : 1;
+  u.rate = lang === 'zh' ? Math.min(1.2, S.settings.rate * 0.9) : 1;
   let done = false;
   const fin = () => { if (!done) { done = true; if (currentUtterance === u) currentUtterance = null; onend && onend(); } };
   u.onend = fin;
@@ -130,7 +162,11 @@ function speak(text, {lang = 'zh', onend} = {}) {
   currentUtterance = u; // keep a reference so the browser doesn't drop it mid-sentence
   synth.speak(u);
 }
-const stopSpeech = () => { if (window.speechSynthesis && (speechSynthesis.speaking || speechSynthesis.pending)) speechSynthesis.cancel(); };
+function stopSpeech() {
+  playerToken++;
+  try { player.pause(); } catch (e) {}
+  if (window.speechSynthesis && (speechSynthesis.speaking || speechSynthesis.pending)) speechSynthesis.cancel();
+}
 const speakItem = it => speak(it.kind === 'q' ? it.q : it.zh);
 const speakAnswer = it => speak(it.kind === 'q' ? it.key : it.zh);
 
@@ -768,11 +804,12 @@ function renderSettings() {
       <label class="field">Daily goal
         <select id="sGoal">${[[500, 'Casual · 500 points'], [1500, 'Regular · 1,500 points'], [3000, 'Serious · 3,000 points'], [6000, 'Intense · 6,000 points']].map(([v, t]) => `<option value="${v}" ${s.goal === v ? 'selected' : ''}>${t}</option>`).join('')}</select></label>
       <label class="field">Voice speed <span id="sRateV" style="color:var(--ink-3)">${s.rate.toFixed(2)}×</span>
-        <input type="range" id="sRate" min="0.5" max="1.2" step="0.05" value="${s.rate}"></label>
+        <input type="range" id="sRate" min="0.6" max="1.5" step="0.05" value="${s.rate}"></label>
       <label class="check"><input type="checkbox" id="sPy" ${s.pinyin ? 'checked' : ''}> Show pinyin above characters</label>
       <label class="check"><input type="checkbox" id="sEn" ${s.english ? 'checked' : ''}> Show English translations</label>
       <label class="check"><input type="checkbox" id="sAuto" ${s.autoplay ? 'checked' : ''}> Play audio automatically</label>
       <div class="note" id="sVoice"></div>
+      <div class="row" style="margin-top:10px"><button class="btn" id="sAudioAll">Save all audio for offline use</button><span class="hint" id="sAudioMsg"></span></div>
       <div class="row" style="margin-top:10px"><button class="btn water" id="sTest">${ICON.spk} Test voice</button></div>
     </section>
     <section class="panel">
@@ -800,16 +837,27 @@ function renderSettings() {
   const showVoice = () => {
     pickVoices();
     const lines = [];
-    if (!window.speechSynthesis) lines.push('This browser has no speech support. Open the app in Safari (iPhone) or Chrome (Android).');
+    lines.push(`Recorded audio: <b>${new Set(Object.values(AUDIO)).size} clips</b>, Taiwan voice 曉臻. These play even in Silent mode.`);
+    if (!window.speechSynthesis) lines.push('Backup voice: this browser has no speech support.');
     else {
+      lines.push('Backup voice, used only if a recording is missing:');
       lines.push(`Chinese voice: <b>${zhVoice ? esc(zhVoice.name + ' · ' + zhVoice.lang) : 'not found'}</b> · ${voiceCount} voices on this device`);
       if (lastSpeechError) lines.push(`Last error: <b>${esc(lastSpeechError)}</b>`);
       if (!zhVoice) lines.push('Android: open Settings → search “Text-to-speech” → Preferred engine: Speech Services by Google → ⚙ → Install voice data → Chinese (Taiwan). Then restart the app.');
-      lines.push('iPhone: speech is silent when the side switch is on silent mode. Flip it off and turn the volume up.');
+      lines.push('iPhone: the backup voice is muted in Silent mode. The recordings are not.');
     }
     $('#sVoice').innerHTML = lines.join('<br>');
   };
   showVoice();
+  $('#sAudioAll').onclick = async e => {
+    const files = [...new Set(Object.values(AUDIO))], total = files.length, btn = e.target, msg = $('#sAudioMsg');
+    if (!total) return;
+    btn.disabled = true; let n = 0, failed = 0;
+    const worker = async () => { while (files.length) { const f = files.shift(); try { const r = await fetch('audio/' + f); if (!r.ok) failed++; } catch (err) { failed++; } msg.textContent = `${++n} of ${total}`; } };
+    await Promise.all([worker(), worker(), worker(), worker()]);
+    btn.disabled = false;
+    msg.textContent = failed ? `${total - failed} of ${total} saved. Connect to Wi-Fi and try again for the rest.` : `All ${total} clips saved for offline use.`;
+  };
   $('#sTest').onclick = () => { speak('中華民國總統每幾年選一次？'); setTimeout(showVoice, 1500); };
   const code = () => btoa(unescape(encodeURIComponent(JSON.stringify(S))));
   $('#sCopy').onclick = async () => {

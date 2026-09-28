@@ -21,24 +21,27 @@ Progress is saved in the browser on each device. Use **Settings → Move your pr
 - **iPhone:** open the link in Safari → Share → **Add to Home Screen**.
 - **Android:** open it in Chrome → ⋮ → **Install app**.
 
-After the first visit it works offline. Audio uses the device's built-in Chinese (Taiwan) voice.
+After the first visit it works offline. Audio is pre-recorded in a Taiwan Mandarin voice (曉臻), so it plays on any phone, even an iPhone in Silent mode. Clips are saved as you play them; **Settings → Save all audio for offline use** downloads all of them (about 30 MB). If a clip is missing, the app falls back to the phone's built-in voice.
 
 ## Project layout
 
 ```
 Sources/            the app (deployed to GitHub Pages as-is, no build step)
   index.html, app.css, app.js
-  data.js           generated question bank, translations, pinyin and vocabulary
+  data.js           generated question bank, translations, pinyin, vocabulary and audio map
+  audio/            recorded clips (named by content hash)
   sw.js, manifest.webmanifest, icons/
 Tools/
+  build_audio.py    records Sources/audio/*.mp3 for any new or changed text
   build_data.py     regenerates Sources/data.js
-  data/             parsed question bank (qa.json), translations (tr*.json), vocabulary (vocab.json)
+  data/             parsed question bank (qa.json), translations (tr*.json), vocabulary (vocab.json), audio map (audio.json)
 ```
 
 To change a translation or a short answer, edit the file in `Tools/data/`, then run:
 
 ```
-pip install pypinyin
+pip install pypinyin edge-tts
+python3 Tools/build_audio.py   # records only text that changed
 python3 Tools/build_data.py
 ```
 

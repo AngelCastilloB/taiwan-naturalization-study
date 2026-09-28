@@ -1,5 +1,5 @@
 // Offline support: load from the network when possible, fall back to the cached app shell.
-const VERSION = 'v2';
+const VERSION = 'v3';
 const SHELL = ['./', 'index.html', 'app.css', 'app.js', 'data.js', 'manifest.webmanifest',
   'icons/icon.svg', 'icons/icon-192.png', 'icons/icon-512.png', 'icons/apple-touch-icon.png'];
 
@@ -17,7 +17,16 @@ self.addEventListener('fetch', e => {
   const req = e.request;
   if (req.method !== 'GET') return;
   const url = new URL(req.url);
-  if (url.origin === location.origin) {
+  if (url.origin === location.origin && url.pathname.includes('/audio/')) {
+    // recordings never change (names are content hashes): cache first, keep what has been played
+    e.respondWith(caches.open('audio').then(async cache => {
+      const hit = await cache.match(req);
+      if (hit) return hit;
+      const res = await fetch(req);
+      if (res.ok) cache.put(req, res.clone());
+      return res;
+    }));
+  } else if (url.origin === location.origin) {
     // network first so updates arrive right away; cache when offline
     e.respondWith(caches.open('shell-' + VERSION).then(async cache => {
       try {
