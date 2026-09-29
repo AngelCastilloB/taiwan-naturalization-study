@@ -11,7 +11,7 @@ The course is split into 47 levels. For each topic there is a level of vocabular
 - **Learn** introduces 5 items at a time. Each one grows from a seed to a full flower as you pass three tests: multiple choice, then listening (or English → Chinese for words), then building the answer from tiles.
 - **Review** brings planted items back after 4 hours, 12 hours, 1 day, 3 days, 1 week, 2 weeks, 1 month and so on. A missed item drops back to the start and is asked again later in the same session.
 - **Commute mode** reads a question, pauses for you to answer out loud, then reads the answer. It's hands-free, for the MRT.
-- **Mock exam** is 20 random questions, 5 points each. 60 points passes, the same as the real test.
+- **Mock exam** is 20 random questions, 5 points each. 70 points passes, the score the household registration office requires for naturalization.
 - Points, a daily goal and a streak keep track of your daily practice.
 
 Progress is saved in the browser on each device. Use **Settings → Move your progress** to copy it between devices.

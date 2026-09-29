@@ -9,6 +9,7 @@ const REVIEW_INT = [0, 4 * HOUR, 12 * HOUR, DAY, 3 * DAY, 7 * DAY, 14 * DAY, 30 
 const LONG_TERM = 4;         // review box at which an item counts as in long-term memory
 const LEARN_BATCH = 5;       // new items per learn session
 const REVIEW_BATCH = 25;     // items per review session
+const PASS_SCORE = 70;     // score the household registration office requires for naturalization
 const POINTS = {present: 10, mc: 50, listen: 75, rev: 75, tiles: 100, self: 50};
 const STORE_KEY = 'naturalization-oral-237-v2';
 
@@ -743,21 +744,21 @@ function renderExam() {
       <div class="crumbs"><a href="#/">← Course</a></div>
       <section class="panel">
         <h2>口試 Mock exam</h2>
-        <p>Like the real oral test: 20 random questions from the bank, 5 points each, and 60 points passes. Each question is read aloud with the text hidden. Answer out loud, check the official answer, and mark yourself honestly. Missed questions come back in your next review.</p>
+        <p>Like the real oral test: 20 random questions from the bank, 5 points each. You need 70 points to use the result for naturalization. Each question is read aloud with the text hidden. Answer out loud, check the official answer, and mark yourself honestly. Missed questions come back in your next review.</p>
         <button class="btn sun" id="eStart">Start mock exam</button>
       </section>
-      ${hist.length ? `<h2 class="section">Recent results</h2><div class="things">${hist.map(h => `<div class="thing" style="grid-template-columns:1fr auto"><div>${new Date(h.t).toLocaleString([], {dateStyle: 'medium', timeStyle: 'short'})}</div><div style="font-weight:800;color:${h.score >= 60 ? 'var(--leaf-2)' : 'var(--bad)'}">${h.score}/100 ${h.score >= 60 ? 'Pass' : 'Not yet'}</div></div>`).join('')}</div>` : ''}
+      ${hist.length ? `<h2 class="section">Recent results</h2><div class="things">${hist.map(h => `<div class="thing" style="grid-template-columns:1fr auto"><div>${new Date(h.t).toLocaleString([], {dateStyle: 'medium', timeStyle: 'short'})}</div><div style="font-weight:800;color:${h.score >= PASS_SCORE ? 'var(--leaf-2)' : 'var(--bad)'}">${h.score}/100 ${h.score >= PASS_SCORE ? 'Pass' : 'Not yet'}</div></div>`).join('')}</div>` : ''}
       ${voiceNote()}`;
     $('#eStart').onclick = () => { exam = {ids: shuffle(Q_IDS).slice(0, 20), i: 0, marks: [], shown: false, text: false}; renderExam(); setTimeout(() => speakItem(ITEMS[exam.ids[0]]), 250); };
     return;
   }
   if (exam.i >= 20) {
-    const right = exam.marks.filter(Boolean).length, score = right * 5, pass = score >= 60;
+    const right = exam.marks.filter(Boolean).length, score = right * 5, pass = score >= PASS_SCORE;
     const wrong = exam.ids.filter((id, i) => !exam.marks[i]);
     app.innerHTML = `<div class="session"><section class="prompt summary pop">
       <div class="stamp ${pass ? '' : 'fail'}">${pass ? '合格' : '未過'}<small>${pass ? 'PASS' : 'NOT YET'}</small></div>
       <div class="pts" style="margin-top:12px">${score}<span style="font-size:20px;color:var(--ink-3)">/100</span></div>
-      <p class="hint">${right} of 20 correct. ${pass ? 'You would pass the real test.' : 'You need 12 correct (60 points) to pass.'}</p>
+      <p class="hint">${right} of 20 correct. ${pass ? 'You would pass the real test.' : `You need ${PASS_SCORE / 5} correct (${PASS_SCORE} points) to pass.`}</p>
       ${wrong.length ? `<div class="things sum-list">${wrong.map(id => { const it = ITEMS[id]; return `<div class="thing" style="grid-template-columns:1fr"><div><div class="col-a">${ruby(it.q, it.qp)}<br><span class="ans">${ruby(it.key, it.kp)}</span></div><div class="col-b en">${esc(it.qe)} → <b>${esc(it.ke)}</b></div></div></div>`; }).join('')}</div>` : ''}
       <div class="continue"><button class="btn sun" id="eAgain">Take another</button><button class="btn" id="eHome">Back to course</button></div>
     </section></div>`;
